@@ -148,13 +148,13 @@
   
   @media only screen and (max-width: 689px) {
     .reachme-title .row {
-      justify-content: center;
+      justify-content: left;
     }
     .reachme-title h2 {
-      text-align: center;
+      text-align: left;
     }
     .reachme-title p {
-      text-align: center;
+      text-align: left;
     }
   }
   @media only screen and (max-width: 550px) {

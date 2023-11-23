@@ -90,6 +90,14 @@
       width: 60px;
       height: 60px;
     }
+
+    .education-detail ul {
+        padding-left: 0px;
+    }
+
+    .experience-detail ul.work-responsibilities {
+        padding-left: 0px; 
+      }
   
     .education-detail h3, .experience-detail h3 {
       font-size: 1rem;
