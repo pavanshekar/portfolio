@@ -1,0 +1,100 @@
+.education-experience-container {
+    padding: 100px 40px 20px 40px;
+    background: var(--color-background-2); 
+  }
+  
+  .education-section, .work-experience-section {
+    background: var(--color-card-background); 
+    padding: 25px;
+    border-radius: var(--border-radius-3); 
+    box-shadow: var(--card-box-shadow); 
+  }
+  
+  .education-detail, .experience-detail {
+    display: flex;
+    align-items: start;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  
+  .education-detail img, .experience-detail img {
+    width: 80px;
+    height: 80px;
+    border-radius: 25%;
+    margin-right: 20px;
+    object-fit: cover;
+  }
+  
+  .education-detail div, .experience-detail div {
+    flex-grow: 1;
+  }
+  
+  .education-detail h3, .experience-detail h3 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+    color: var(--color-title);
+  }
+  
+  .experience-detail p {
+    margin-bottom: 5px;
+  }
+
+  .edu-degree {
+    margin-bottom: 0px;
+    font-size: medium !important;
+  }
+  
+  .education-detail ul {
+    list-style: inside;
+    padding-left: 40px;
+  }
+
+  .education-detail .edu-completion {
+    font-style: italic;
+    color: var(--color-info-light); 
+  }
+  
+  .experience-detail .work-duration {
+    font-style: italic;
+    color: var(--color-info-light); 
+  }
+  
+  .experience-detail .work-description {
+    margin-top: 10px;
+  }
+
+  .education-detail ul li {
+    color: var(--color-info-light);
+    margin-bottom: 5px;
+    list-style-type: disc;
+  }
+
+  .work-responsibilities {
+    margin-top: 14px;
+  }
+
+  .experience-detail ul.work-responsibilities {
+    padding-left: 40px; 
+    color: var(--color-info-light); 
+    list-style-type: disc;
+  }
+  
+  .experience-detail ul.work-responsibilities li {
+    margin-bottom: 5px;
+    list-style-type: disc;
+  }
+  
+  /* Responsive Design */
+  @media only screen and (max-width: 768px) {
+    .education-detail img, .experience-detail img {
+      width: 60px;
+      height: 60px;
+    }
+  
+    .education-detail h3, .experience-detail h3 {
+      font-size: 1rem;
+    }
+  }
+  
+  /* Add additional responsive styling as needed */
+  
