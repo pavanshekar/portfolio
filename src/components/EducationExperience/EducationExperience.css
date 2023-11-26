@@ -91,12 +91,21 @@
       height: 60px;
     }
 
+    .education-experience-container {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+
+    .work-experience-section {
+      margin-top: 20px;
+    }
+
     .education-detail ul {
-        padding-left: 0px;
+        padding-left: 20px;
     }
 
     .experience-detail ul.work-responsibilities {
-        padding-left: 0px; 
+        padding-left: 20px; 
       }
   
     .education-detail h3, .experience-detail h3 {
