@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.dfd02890.css",
-    "main.js": "/portfolio/static/js/main.4eb2a5dd.js",
+    "main.css": "/portfolio/static/css/main.b0f2c16b.css",
+    "main.js": "/portfolio/static/js/main.bf31c457.js",
     "static/media/profile_pic.jpg": "/portfolio/static/media/profile_pic.dca862e36bc3e677d35a.jpg",
     "static/media/infyMansions.jpeg": "/portfolio/static/media/infyMansions.4f9057fc5c83b2602085.jpeg",
     "static/media/eventmanagementsystem.jpg": "/portfolio/static/media/eventmanagementsystem.8ae5747607fb6eef1f94.jpg",
@@ -13,12 +13,13 @@
     "static/media/springboot.png": "/portfolio/static/media/springboot.ddd04734fe086d24fd3e.png",
     "static/media/face.png": "/portfolio/static/media/face.45dd818d4cc7c8b110d2.png",
     "static/media/fsd.png": "/portfolio/static/media/fsd.008105e29b3e0a74870f.png",
+    "static/media/resume.pdf": "/portfolio/static/media/resume.1f67c1ef7088dc047b49.pdf",
     "static/media/cicd.png": "/portfolio/static/media/cicd.ddcf55b047c09ef7b859.png",
-    "static/media/resume.pdf": "/portfolio/static/media/resume.2f64448ba79b311c156e.pdf",
     "static/media/azure.png": "/portfolio/static/media/azure.77336339875136303870.png",
     "static/media/heroku.png": "/portfolio/static/media/heroku.58328e43a9f7811194ed.png",
     "static/media/protractor.png": "/portfolio/static/media/protractor.8651f73e4999ae911de8.png",
     "static/media/jasmine.png": "/portfolio/static/media/jasmine.2c2f8466cc472868100b.png",
+    "static/media/express.png": "/portfolio/static/media/express.304b141b6c72993d3aad.png",
     "static/media/infosys.png": "/portfolio/static/media/infosys.c6430f1d0f869e9fdca8.png",
     "static/media/seaborn.png": "/portfolio/static/media/seaborn.f3789c429553bd737ae6.png",
     "static/media/bootstrap.png": "/portfolio/static/media/bootstrap.32c248432e2b86298964.png",
@@ -50,11 +51,11 @@
     "static/media/react.png": "/portfolio/static/media/react.ef20e673b9282f8f30fd.png",
     "static/media/matPlotLib.png": "/portfolio/static/media/matPlotLib.20692538caf6386bc94d.png",
     "index.html": "/portfolio/index.html",
-    "main.dfd02890.css.map": "/portfolio/static/css/main.dfd02890.css.map",
-    "main.4eb2a5dd.js.map": "/portfolio/static/js/main.4eb2a5dd.js.map"
+    "main.b0f2c16b.css.map": "/portfolio/static/css/main.b0f2c16b.css.map",
+    "main.bf31c457.js.map": "/portfolio/static/js/main.bf31c457.js.map"
   },
   "entrypoints": [
-    "static/css/main.dfd02890.css",
-    "static/js/main.4eb2a5dd.js"
+    "static/css/main.b0f2c16b.css",
+    "static/js/main.bf31c457.js"
   ]
 }
