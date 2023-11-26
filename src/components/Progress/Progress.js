@@ -16,12 +16,13 @@ const Progress = () => {
     if (isFetching || !langIcons) return "loading";
 
     const skillCategories = {
-        "Programming Competency": ["Java", "Python", "HTML", "CSS", "JavaScript", "TypeScript"],
-        "Frameworks and Libraries": ["Angular", "React.js", "Node.js", "Express.js", "Spring Boot", "jQuery", "Bootstrap", "Tailwind CSS"],
+        "Programming Languages": ["Java", "Python", "HTML", "CSS", "JavaScript", "TypeScript"],
+        "Web Frameworks and Libraries": ["Angular", "React.js", "Node.js", "Express.js", "Spring Boot", "jQuery", "Bootstrap", "Tailwind CSS"],
         "Testing": ["Jest", "Enzyme", "Protractor", "Jasmine", "Mocha", "Chai"],
         "Databases": ["MySQL", "MongoDB", "Hibernate", "Sequelize"],
+        "Cloud": ["AWS", "Azure", "GCP", "CI/CD", "GitHub Actions", "Pulumi"],
+        "Data Science Tools and Libraries": ["NumPy", "Pandas", "SciKit-Learn", "MatPlotLib", "Seaborn", "OpenCV"],
         "Software Tools and Technologies": ["Git", "Heroku", "Anaconda", "Jupyter Notebook", "Visual Studio Code", "Eclipse", "Packer"],
-        "DevOps": ["AWS", "Azure", "CI/CD", "GitHub Actions", "Pulumi"],
     };
 
     const categorizedSkills = Object.entries(skillCategories).map(([category, skills]) => {

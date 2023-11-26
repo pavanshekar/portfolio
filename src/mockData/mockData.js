@@ -22,7 +22,7 @@ import typescript from '../images/skills/ts.png';
 import angular from '../images/skills/angular.png';
 import react from '../images/skills/react.png';
 import node from '../images/skills/node.png';
-import express from '../images/skills/java.jpeg';
+import express from '../images/skills/express.png';
 import springboot from '../images/skills/springboot.png';
 import jquery from '../images/skills/jquery.png';
 import bootstrap from '../images/skills/bootstrap.png';
@@ -56,6 +56,7 @@ import packer from '../images/skills/packer.png';
 
 import aws from '../images/skills/aws.png';
 import azure from '../images/skills/azure.png';
+import gcp from '../images/skills/gcp.png';
 import cicd from '../images/skills/cicd.png';
 import githubActions from '../images/skills/githubActions.png';
 import pulumi from '../images/skills/pulumi.png';
@@ -76,7 +77,7 @@ export const homeDetailsMockData = {
   job_title: 'Full Stack Developer',
   par_inro: 'Welcome to my personal world.',
   avatar_img: profilePic,
-  hireMe_link: 'mailto:shekar.p@northeastern.edu',
+  hireMe_link: 'shekar.p@northeastern.edu',
   cv_link: cv_link
 };
 
@@ -84,7 +85,7 @@ export const aboutMeMockData = {
   id: 1,
   title: 'About Me',
   title_2: 'Graduate Student @ Northeastern University | SDE | Full Stack Developer',
-  description: "I am a graduate student at Northeastern University pursuing a Master's in Information Systems.\n\nI have three years of industry experience as a Software Development Engineer at Infosys and OnSolve. My expertise lies in Full Stack Web Development, with strong proficiency in technologies such as Angular, React.js, Node.js, Express.js, Spring Boot, Hibernate, Sequelize, MySQL, and MongoDB.\n\nI am actively seeking opportunities to leverage my skills and contribute to innovative projects in a supportive and challenging environment.",
+  description: "I am a graduate student at Northeastern University pursuing a Master's in Information Systems.\n\nI have three years of industry experience as a Software Development Engineer at Infosys and OnSolve. My expertise lies in Full Stack Web Development, complemented by a strong foundation in developing machine learning solutions. Additionally, my proficiency extends to leveraging cloud technologies, demonstrating a comprehensive skill set in cloud-based solution development and deployment.\n\nI am confident that my blend of technical skills and professional experience will significantly contribute to my career growth as a Software Development Engineer. I am eager to explore opportunities that not only allow me to contribute my skills but also provide a platform for continuous learning and professional development in the evolving fields of software engineering.",
   about_avatar: avatarImg,
 };
 
@@ -103,7 +104,7 @@ export const educationWorkExperienceMockData = {
       university: 'SJB Institute of Technology',
       degree: 'BE, Computer Science & Engineering',
       completionDate: 'July 2019',
-      coursework: ['Data Structures & Applications', 'Design & Analysis of Algorithms', 'Computer Networks', 'Unix & Shell Programming', 'Operating Systems', 'Web Technology & Applications', 'Java and J2EE', 'Python Application Programming', '.NET framework for application development', 'Machine Learning', 'IOT', 'Big Data Analytics'],
+      coursework: ['Data Structures & Applications', 'Design & Analysis of Algorithms', 'Computer Networks', 'Unix & Shell Programming', 'Operating Systems', 'Web Technology & Applications', 'Java and J2EE', 'Python Application Programming', 'Machine Learning'],
       logo: sjbit, 
     },
     
@@ -117,7 +118,7 @@ export const educationWorkExperienceMockData = {
       responsibilities: [
         'Enhanced and integrated 12 front-end modules of the OnSolve Platform using React.js and Redux, improving performance by 15%',
         'Implemented unit tests with Jest and Enzyme for React, achieving over 90% code coverage',
-        'Managed code reviews and administered two OnSolve.UI releases via CI/CD with GitHub Actions',
+        'Ensured high quality releases by managing stringent code reviews and administering two OnSolve.UI releases via CI/CD with GitHub Actions',
       ],
       logo: onsolve, 
     },
@@ -127,9 +128,9 @@ export const educationWorkExperienceMockData = {
       company: 'Infosys',
       duration: 'Sep 2019 - Apr 2022',
       responsibilities: [
-        'Conceptualized, owned and developed 5 new web applications using Angular',
-        'Taught 200 new employees JavaScript, Angular, and React.js over 6 months',
-        'Mentored 10 new hires by providing feedback on assessments and code during the Foundation Program',
+        'Drove innovation by conceptualizing and developing 5 web applications, meeting emerging client needs using Angular',
+        'Bolstered workforce skills by teaching JavaScript, Angular and React.js to 200 new employees, leading hands-on workshops',
+        'Contributed to talent development by mentoring 10 new hires, providing actionable feedback during the Foundation Program',
       ],
       logo: infosys, 
     },
@@ -139,9 +140,9 @@ export const educationWorkExperienceMockData = {
       company: 'Speckbit Exploratories',
       duration: 'Jan 2019 - Mar 2019',
       responsibilities: [
-        'Created an Air Quality Prediction model on Air Quality Dataset - UCI Machine Learning repository as a part of Roadmaps content development initiative with the help of Python and machine learning algorithms',
-        'Designed a prediction model for benzene estimation and temperature variations in urban populations',
-        'Engineered the model utilizing Linear Regression, Lasso Regression and  Decision Tree Regression with an accuracy of 99.6%',
+        'Devised a Python-based Air Quality Prediction model leveraging the Air Quality Dataset-UCI Machine Learning repository, yielding significant advancements in urban air quality forecasting',
+        'Engineered a machine learning suite that accurately predicts urban benzene levels and temperature variations',
+        'Utilized Linear, Lasso and Decision Tree Regression, achieving a 99.6% accuracy in urban air quality monitoring',
       ],
       logo: speckbit, 
     },
@@ -158,7 +159,7 @@ export const projectsMockData = [
     project_info: [
       'Crafted EduAssign using Node.js/Express.js with Sequelize for MySQL, streamlining assignment management', 
       'Implemented CI/CD with GitHub Actions for automated testing (Mocha/Chai) and AMI creation via Packer, enhancing development workflow and deployment',
-      'Deployed scalable AWS infrastructure using Pulumi, optimizing resource management for a reliable academic environment', 
+      'Augmented the infrastructure using AWS EC2, Lambda, SNS, SES, Route 53 for DNS management and Google Cloud Storage employing Pulumi, emphasizing load balancing, auto-scaling and CloudWatch for comprehensive logging and monitoring', 
     ],
     project_link: null,
   },
@@ -181,8 +182,8 @@ export const projectsMockData = [
     project_avatar: eventManagementSystem,
     project_info: [
       'Developed a fully-functional event management system using Spring Boot, Hibernate, and MySQL, allowing users to create, manage, and promote events through an intuitive user interface', 
-      'Architected the database schema, REST APIs, and front-end views independently to develop a scalable and maintainable event management system that meets project requirements',
-      'Implemented robust email notification and image hosting functionality within the event management system, improving overall user experience and satisfaction', 
+      'Architected the database schema, REST APIs, and front-end views to develop a scalable and maintainable system',
+      'Established robust email notification and image hosting functionality, improving overall user experience and satisfaction', 
     ],
     project_link: 'https://github.com/pavanshekar/EventManagementSystem',
   },
@@ -320,8 +321,9 @@ export const languagesIconsMockData = [
   { id: 37, skill: 'Packer', icon: packer },
   { id: 38, skill: 'AWS', icon: aws },
   { id: 39, skill: 'Azure', icon: azure },
-  { id: 40, skill: 'CI/CD', icon: cicd },
-  { id: 41, skill: 'GitHub Actions', icon: githubActions },
-  { id: 42, skill: 'Pulumi', icon: pulumi },
+  { id: 40, skill: 'GCP', icon: gcp },
+  { id: 41, skill: 'CI/CD', icon: cicd },
+  { id: 42, skill: 'GitHub Actions', icon: githubActions },
+  { id: 43, skill: 'Pulumi', icon: pulumi },
   
 ];
