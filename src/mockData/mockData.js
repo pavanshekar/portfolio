@@ -128,7 +128,7 @@ export const educationWorkExperienceMockData = {
       company: 'Infosys',
       duration: 'Sep 2019 - Apr 2022',
       responsibilities: [
-        'Drove innovation by conceptualizing and developing 5 web applications, meeting emerging client needs using Angular',
+        'Drove innovation by conceptualizing and developing 3 web applications, meeting emerging client needs using Angular',
         'Contributed to the Smart Classroom project at Infosys by developing a high-accuracy YOLOv3 chair detection model and a MEAN stack-based dashboard, significantly enhancing the interactive learning environment',
         'Played a key role in workforce development by conducting workshops in JavaScript, Angular, and React.js for 200 employees and providing mentorship to 10 new hires in the Foundation Program',
       ],
