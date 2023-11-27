@@ -6,11 +6,13 @@ import "./Progress.css";
 
 const Progress = () => {
     const { data: langIcons, isFetching } = useGetLanguagesIconsQuery();
-    const [icons, setIcons] = useState(langIcons);
+    const [icons, setIcons] = useState([]);
     const [activeIndices, setActiveIndices] = useState({});
 
     useEffect(() => {
-        setIcons(langIcons);
+        if (langIcons) {
+            setIcons(langIcons);
+        }
     }, [langIcons]);
 
     if (isFetching || !langIcons) return "loading";
@@ -20,14 +22,14 @@ const Progress = () => {
         "Web Frameworks and Libraries": ["Angular", "React.js", "Node.js", "Express.js", "Spring Boot", "jQuery", "Bootstrap", "Tailwind CSS"],
         "Testing": ["Jest", "Enzyme", "Protractor", "Jasmine", "Mocha", "Chai"],
         "Databases": ["MySQL", "MongoDB", "Hibernate", "Sequelize"],
-        "Cloud": ["AWS", "Azure", "GCP", "CI/CD", "GitHub Actions", "Pulumi"],
+        "Cloud": ["AWS", "Azure", "GCP", "CI/CD", "GitHub Actions", "Packer", "Pulumi"],
         "Data Science Tools and Libraries": ["NumPy", "Pandas", "SciKit-Learn", "MatPlotLib", "Seaborn", "OpenCV"],
-        "Software Tools and Technologies": ["Git", "Heroku", "Anaconda", "Jupyter Notebook", "Visual Studio Code", "Eclipse", "Packer"],
+        "Software Tools and Technologies": ["Git", "Heroku", "Anaconda", "Jupyter Notebook", "VS Code", "Eclipse"],
     };
 
     const categorizedSkills = Object.entries(skillCategories).map(([category, skills]) => {
         const skillIcons = skills.map(skill =>
-            langIcons.find(icon => icon.skill === skill)
+            icons.find(icon => icon.skill === skill)
         ).filter(Boolean);
 
         return {
@@ -66,7 +68,7 @@ const Progress = () => {
                                 disableButtonsControls
                                 disableDotsControls
                                 mouseTracking
-                                autoPlayInterval={1000}
+                                autoPlayInterval={2000}
                                 items={icons.map(icon => (
                                     <div className="mylang" title={icon.skill} key={icon.id}>
                                         <div className="lang-info">
