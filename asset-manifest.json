@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.b0f2c16b.css",
-    "main.js": "/portfolio/static/js/main.13a8fa0b.js",
+    "main.js": "/portfolio/static/js/main.e82818f9.js",
     "static/media/profile_pic.jpg": "/portfolio/static/media/profile_pic.dca862e36bc3e677d35a.jpg",
     "static/media/infyMansions.jpeg": "/portfolio/static/media/infyMansions.4f9057fc5c83b2602085.jpeg",
     "static/media/eventmanagementsystem.jpg": "/portfolio/static/media/eventmanagementsystem.8ae5747607fb6eef1f94.jpg",
@@ -52,10 +52,10 @@
     "static/media/matPlotLib.png": "/portfolio/static/media/matPlotLib.20692538caf6386bc94d.png",
     "index.html": "/portfolio/index.html",
     "main.b0f2c16b.css.map": "/portfolio/static/css/main.b0f2c16b.css.map",
-    "main.13a8fa0b.js.map": "/portfolio/static/js/main.13a8fa0b.js.map"
+    "main.e82818f9.js.map": "/portfolio/static/js/main.e82818f9.js.map"
   },
   "entrypoints": [
     "static/css/main.b0f2c16b.css",
-    "static/js/main.13a8fa0b.js"
+    "static/js/main.e82818f9.js"
   ]
 }
