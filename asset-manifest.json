@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.b0f2c16b.css",
-    "main.js": "/portfolio/static/js/main.8722c33d.js",
+    "main.js": "/portfolio/static/js/main.13a8fa0b.js",
     "static/media/profile_pic.jpg": "/portfolio/static/media/profile_pic.dca862e36bc3e677d35a.jpg",
     "static/media/infyMansions.jpeg": "/portfolio/static/media/infyMansions.4f9057fc5c83b2602085.jpeg",
     "static/media/eventmanagementsystem.jpg": "/portfolio/static/media/eventmanagementsystem.8ae5747607fb6eef1f94.jpg",
@@ -13,7 +13,7 @@
     "static/media/springboot.png": "/portfolio/static/media/springboot.ddd04734fe086d24fd3e.png",
     "static/media/face.png": "/portfolio/static/media/face.45dd818d4cc7c8b110d2.png",
     "static/media/fsd.png": "/portfolio/static/media/fsd.008105e29b3e0a74870f.png",
-    "static/media/resume.pdf": "/portfolio/static/media/resume.405f343ced3e86813800.pdf",
+    "static/media/resume.pdf": "/portfolio/static/media/resume.26f4f01b65194cf3e7f5.pdf",
     "static/media/cicd.png": "/portfolio/static/media/cicd.ddcf55b047c09ef7b859.png",
     "static/media/azure.png": "/portfolio/static/media/azure.77336339875136303870.png",
     "static/media/heroku.png": "/portfolio/static/media/heroku.58328e43a9f7811194ed.png",
@@ -52,10 +52,10 @@
     "static/media/matPlotLib.png": "/portfolio/static/media/matPlotLib.20692538caf6386bc94d.png",
     "index.html": "/portfolio/index.html",
     "main.b0f2c16b.css.map": "/portfolio/static/css/main.b0f2c16b.css.map",
-    "main.8722c33d.js.map": "/portfolio/static/js/main.8722c33d.js.map"
+    "main.13a8fa0b.js.map": "/portfolio/static/js/main.13a8fa0b.js.map"
   },
   "entrypoints": [
     "static/css/main.b0f2c16b.css",
-    "static/js/main.8722c33d.js"
+    "static/js/main.13a8fa0b.js"
   ]
 }
