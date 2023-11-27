@@ -117,8 +117,8 @@ export const educationWorkExperienceMockData = {
       duration: 'Apr 2022 - Aug 2022',
       responsibilities: [
         'Enhanced and integrated 12 front-end modules of the OnSolve Platform using React.js and Redux, improving performance by 15%',
-        'Implemented unit tests with Jest and Enzyme for React, achieving over 90% code coverage',
-        'Ensured high quality releases by managing stringent code reviews and administering two OnSolve.UI releases via CI/CD with GitHub Actions',
+        'Implemented unit tests for front-end modules employing Jest and Enzyme for React with code coverage of over 90%',
+        'Ensured high quality through stringent code reviews and administered two OnSolve.UI releases via CI/CD with GitHub Actions',
       ],
       logo: onsolve, 
     },
@@ -129,8 +129,8 @@ export const educationWorkExperienceMockData = {
       duration: 'Sep 2019 - Apr 2022',
       responsibilities: [
         'Drove innovation by conceptualizing and developing 5 web applications, meeting emerging client needs using Angular',
-        'Bolstered workforce skills by teaching JavaScript, Angular and React.js to 200 new employees, leading hands-on workshops',
-        'Contributed to talent development by mentoring 10 new hires, providing actionable feedback during the Foundation Program',
+        'Contributed to the Smart Classroom project at Infosys by developing a high-accuracy YOLOv3 chair detection model and a MEAN stack-based dashboard, significantly enhancing the interactive learning environment',
+        'Played a key role in workforce development by conducting workshops in JavaScript, Angular, and React.js for 200 employees and providing mentorship to 10 new hires in the Foundation Program',
       ],
       logo: infosys, 
     },
@@ -194,7 +194,7 @@ export const projectsMockData = [
     project_avatar: infyMansions,
     project_info: [
       'Incorporated Angular, Material UI to construct 6 UI/UX modules, and orchestrated back-end with Node.js and Express.js', 
-      'Utilized Protractor and Jasmine for end-to-end testing (90% coverage); applied Mocha and Chai for integration tests',
+      'Employed Protractor and Jasmine for end-to-end testing (90% coverage); applied Mocha and Chai for integration tests',
       'Improved code quality and maintainability by 20% using tslint and eslint for linting standards', 
     ],
     project_link: null,
@@ -205,8 +205,8 @@ export const projectsMockData = [
     tech_stack: 'Java, Java Swing, MySQL',
     project_avatar: banking,
     project_info: [
-      'Developed a Java-based Banking Management System with advanced features, including graphical insights via pie charts', 
-      'Architected a modular system with distinct modules for different operations, ensuring efficient access and user management',
+      'Created a Java-based Banking Management System with advanced features, including graphical insights via pie charts', 
+      'Designed a modular system with distinct modules for different operations, ensuring efficient access and user management',
       'Implemented a sophisticated authorization and authentication system, enabling secure access and role-based user management', 
     ],
     project_link: 'https://github.com/pavanshekar/BankingManagementSystem',
@@ -217,9 +217,9 @@ export const projectsMockData = [
     tech_stack: 'Python, NumPy, Pandas, Sci-Kit Learn, MatplotLib, Seaborn',
     project_avatar: air,
     project_info: [
-      'Created an Air Quality Prediction model on Air Quality Dataset - UCI Machine Learning repository as a part of Roadmaps content development initiative with the help of Python and machine learning algorithms', 
-      'Designed a prediction model for benzene estimation and temperature variations in urban populations',
-      'Engineered the model utilizing Linear Regression, Lasso Regression and  Decision Tree Regression with an accuracy of 99.6%', 
+      'Devised a Python-based Air Quality Prediction model leveraging the Air Quality Dataset-UCI Machine Learning repository, yielding significant advancements in urban air quality forecasting', 
+      'Engineered a machine learning suite that accurately predicts urban benzene levels and temperature variations',
+      'Utilized Linear, Lasso and Decision Tree Regression, achieving a 99.6% accuracy in urban air quality monitoring', 
     ],
     project_link: 'https://github.com/pavanshekar/Air-quality-prediction',
   },
@@ -229,7 +229,7 @@ export const projectsMockData = [
     tech_stack: 'Python, OpenCV, Neural Networks',
     project_avatar: face,
     project_info: [
-      'Developed an OpenCV-based face detection model with a validation accuracy of 97% (Viola Jones algorithm)', 
+      'Constructed an OpenCV-based face detection model with a validation accuracy of 97% (Viola Jones algorithm)', 
       'Created face completion model to predict lower halves of faces with an accuracy of 81% employing ANNs',
       'Spearheaded a team of 4 to build a face recognition model using CNN with an accuracy of 96.5%', 
     ],
