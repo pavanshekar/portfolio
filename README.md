@@ -21,21 +21,21 @@ To install this project on your local machine, follow these steps:
 
 1. Clone the repository:
 
-### `git clone [repository URL]`
+`git clone [repository URL]`
 
 2. Navigate to the project directory:
 
-### `cd [project directory]`
+`cd [project directory]`
 
 3. Install the dependencies:
 
-### `npm install`
+`npm install`
 
 ## Usage
 
 To run this project locally:
 
-### `npm start`
+`npm start`
 
 
 This will start the development server and open the portfolio website in your default web browser.
