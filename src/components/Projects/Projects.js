@@ -99,7 +99,8 @@ const Projects = () => {
                         Live Demo
                       </h6>
                     </a> */}
-                    {details.project_link && (
+
+                    {/* {details.project_link && (
                       <a
                         href={details.project_link}
                         target="_blank"
@@ -110,6 +111,24 @@ const Projects = () => {
                           Source Code
                         </h6>
                       </a>
+                    )} */}
+
+                    {details.project_links && details.project_links.length > 0 && (
+                      <div className="link-container">
+                        {details.project_links.map((link, index) => (
+                          <a
+                            key={index}
+                            href={link.url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            <h6 className="learnmore">
+                              <i className={`fa fa-github`} aria-hidden="true"></i> &nbsp;
+                              {link.text}
+                            </h6>
+                          </a>
+                        ))}
+                      </div>
                     )}
                   </div>
                 </div>

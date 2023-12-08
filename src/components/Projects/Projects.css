@@ -36,7 +36,7 @@
     border: 1px solid rgb(255 255 255 / 0.1);
     border-radius: 17px;
     padding: 20px;
-    min-height: 620px;
+    min-height: 640px;
   }
 
   .project-img {
@@ -153,6 +153,10 @@
     border-bottom: 4px solid var(--color-button);
   }
   
+  .link-container {
+    display: flex;
+  }
+
   /*  */
   
   .light .project {
@@ -164,7 +168,7 @@
   @media only screen and (max-width: 768px) {
     .project {
       width: 200px;
-      min-height: 730px;
+      min-height: 760px;
     }
     .mywork .mywork-title {
       text-align: center;
@@ -216,7 +220,7 @@
     .project {
       padding: 10px;
       min-width: 280px !important;
-      min-height: 720px;
+      min-height: 745px;
     }
     .mywork {
       padding-left: 20px !important;

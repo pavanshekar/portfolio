@@ -97,7 +97,7 @@ export const educationWorkExperienceMockData = {
       degree: 'MS, Information Systems',
       completionDate: 'Expected May 2024',
       coursework: ['Concepts of Object Oriented Design', 'Application Engineering & Development', 'Web Design & User Experience Engineering', 'Database Management & Database Design', 'Web Development Tools & Methods', 'Network Structures & Cloud Computing'],
-      logo: neu, 
+      logo: neu,
     },
     {
       id: 2,
@@ -105,9 +105,9 @@ export const educationWorkExperienceMockData = {
       degree: 'BE, Computer Science & Engineering',
       completionDate: 'July 2019',
       coursework: ['Data Structures & Applications', 'Design & Analysis of Algorithms', 'Computer Networks', 'Unix & Shell Programming', 'Operating Systems', 'Web Technology & Applications', 'Java and J2EE', 'Python Application Programming', 'Machine Learning'],
-      logo: sjbit, 
+      logo: sjbit,
     },
-    
+
   ],
   workExperience: [
     {
@@ -120,7 +120,7 @@ export const educationWorkExperienceMockData = {
         'Implemented unit tests for front-end modules employing Jest and Enzyme for React with code coverage of over 90%',
         'Ensured high quality through stringent code reviews and administered two OnSolve.UI releases via CI/CD with GitHub Actions',
       ],
-      logo: onsolve, 
+      logo: onsolve,
     },
     {
       id: 2,
@@ -132,7 +132,7 @@ export const educationWorkExperienceMockData = {
         'Contributed to the Smart Classroom project at Infosys by developing a high-accuracy YOLOv3 chair detection model and a MEAN stack-based dashboard, significantly enhancing the interactive learning environment',
         'Played a key role in workforce development by conducting workshops in JavaScript, Angular, and React.js for 200 employees and providing mentorship to 10 new hires in the Foundation Program',
       ],
-      logo: infosys, 
+      logo: infosys,
     },
     {
       id: 3,
@@ -144,7 +144,7 @@ export const educationWorkExperienceMockData = {
         'Engineered a machine learning suite that accurately predicts urban benzene levels and temperature variations',
         'Utilized Linear, Lasso and Decision Tree Regression, achieving a 99.6% accuracy in urban air quality monitoring',
       ],
-      logo: speckbit, 
+      logo: speckbit,
     },
   ],
 };
@@ -157,11 +157,24 @@ export const projectsMockData = [
     tech_stack: 'Node.js, Express.js, MySQL, Sequelize, Mocha, Chai, Packer, Pulumi, AWS',
     project_avatar: eduAssign,
     project_info: [
-      'Crafted EduAssign using Node.js/Express.js with Sequelize for MySQL, streamlining assignment management', 
+      'Crafted EduAssign using Node.js/Express.js with Sequelize for MySQL, streamlining assignment management',
       'Implemented CI/CD with GitHub Actions for automated testing (Mocha/Chai) and AMI creation via Packer, enhancing development workflow and deployment',
-      'Augmented the infrastructure using AWS EC2, Lambda, SNS, SES, Route 53 for DNS management and Google Cloud Storage employing Pulumi, emphasizing load balancing, auto-scaling and CloudWatch for comprehensive logging and monitoring', 
+      'Augmented the infrastructure using AWS EC2, Lambda, SNS, SES, Route 53 for DNS management and Google Cloud Storage employing Pulumi, emphasizing load balancing, auto-scaling and CloudWatch for comprehensive logging and monitoring',
     ],
-    project_link: null,
+    project_links: [
+      {
+        text: 'WebApp',
+        url: 'https://github.com/pavanshekar/webapp'
+      },
+      {
+        text: 'IAC',
+        url: 'https://github.com/pavanshekar/iac-pulumi'
+      },
+      {
+        text: 'Serverless',
+        url: 'https://github.com/pavanshekar/serverless'
+      },
+    ]
   },
   {
     id: 2,
@@ -169,11 +182,16 @@ export const projectsMockData = [
     tech_stack: 'MongoDB, Express.js, React.js, Node.js, Firebase',
     project_avatar: foodzilla,
     project_info: [
-      'Built 3 out of 6 full stack modules, such as the auth flows (login, register, forgot password, email verification - all using JWT), add-to-cart feature, as well as the admin portal for inventory management', 
+      'Built 3 out of 6 full stack modules, such as the auth flows (login, register, forgot password, email verification - all using JWT), add-to-cart feature, as well as the admin portal for inventory management',
       'Integrated Stripe API for seamless checkout and the Tasty API for suggesting different recipe options for consumers',
-      'Leveraged Firebase as a cloud image store for the product inventory', 
+      'Leveraged Firebase as a cloud image store for the product inventory',
     ],
-    project_link: 'https://github.com/pavanshekar/FoodZilla',
+    project_links: [
+      {
+        text: 'Source Code',
+        url: 'https://github.com/pavanshekar/FoodZilla'
+      }
+    ],
   },
   {
     id: 3,
@@ -181,11 +199,16 @@ export const projectsMockData = [
     tech_stack: 'HTML, CSS, Spring Boot, Hibernate, MySQL',
     project_avatar: eventManagementSystem,
     project_info: [
-      'Developed a fully-functional event management system using Spring Boot, Hibernate, and MySQL, allowing users to create, manage, and promote events through an intuitive user interface', 
+      'Developed a fully-functional event management system using Spring Boot, Hibernate, and MySQL, allowing users to create, manage, and promote events through an intuitive user interface',
       'Architected the database schema, REST APIs, and front-end views to develop a scalable and maintainable system',
-      'Established robust email notification and image hosting functionality, improving overall user experience and satisfaction', 
+      'Established robust email notification and image hosting functionality, improving overall user experience and satisfaction',
     ],
-    project_link: 'https://github.com/pavanshekar/EventManagementSystem',
+    project_links: [
+      {
+        text: 'Source Code',
+        url: 'https://github.com/pavanshekar/EventManagementSystem'
+      }
+    ],
   },
   {
     id: 4,
@@ -193,11 +216,11 @@ export const projectsMockData = [
     tech_stack: 'MongoDB, Express.js, Angular, Node.js',
     project_avatar: infyMansions,
     project_info: [
-      'Incorporated Angular, Material UI to construct 6 UI/UX modules, and orchestrated back-end with Node.js and Express.js', 
+      'Incorporated Angular, Material UI to construct 6 UI/UX modules, and orchestrated back-end with Node.js and Express.js',
       'Employed Protractor and Jasmine for end-to-end testing (90% coverage); applied Mocha and Chai for integration tests',
-      'Improved code quality and maintainability by 20% using tslint and eslint for linting standards', 
+      'Improved code quality and maintainability by 20% using tslint and eslint for linting standards',
     ],
-    project_link: null,
+    project_links: null,
   },
   {
     id: 5,
@@ -205,11 +228,16 @@ export const projectsMockData = [
     tech_stack: 'Java, Java Swing, MySQL',
     project_avatar: banking,
     project_info: [
-      'Created a Java-based Banking Management System with advanced features, including graphical insights via pie charts', 
+      'Created a Java-based Banking Management System with advanced features, including graphical insights via pie charts',
       'Designed a modular system with distinct modules for different operations, ensuring efficient access and user management',
-      'Implemented a sophisticated authorization and authentication system, enabling secure access and role-based user management', 
+      'Implemented a sophisticated authorization and authentication system, enabling secure access and role-based user management',
     ],
-    project_link: 'https://github.com/pavanshekar/BankingManagementSystem',
+    project_links: [
+      {
+        text: 'Source Code',
+        url: 'https://github.com/pavanshekar/BankingManagementSystem'
+      }
+    ]
   },
   {
     id: 6,
@@ -217,11 +245,16 @@ export const projectsMockData = [
     tech_stack: 'Python, NumPy, Pandas, Sci-Kit Learn, MatplotLib, Seaborn',
     project_avatar: air,
     project_info: [
-      'Devised a Python-based Air Quality Prediction model leveraging the Air Quality Dataset-UCI Machine Learning repository, yielding significant advancements in urban air quality forecasting', 
+      'Devised a Python-based Air Quality Prediction model leveraging the Air Quality Dataset-UCI Machine Learning repository, yielding significant advancements in urban air quality forecasting',
       'Engineered a machine learning suite that accurately predicts urban benzene levels and temperature variations',
-      'Utilized Linear, Lasso and Decision Tree Regression, achieving a 99.6% accuracy in urban air quality monitoring', 
+      'Utilized Linear, Lasso and Decision Tree Regression, achieving a 99.6% accuracy in urban air quality monitoring',
     ],
-    project_link: 'https://github.com/pavanshekar/Air-quality-prediction',
+    project_links: [
+      {
+        text: 'Source Code',
+        url: 'https://github.com/pavanshekar/Air-quality-prediction',
+      }
+    ],
   },
   {
     id: 7,
@@ -229,11 +262,11 @@ export const projectsMockData = [
     tech_stack: 'Python, OpenCV, Neural Networks',
     project_avatar: face,
     project_info: [
-      'Constructed an OpenCV-based face detection model with a validation accuracy of 97% (Viola Jones algorithm)', 
+      'Constructed an OpenCV-based face detection model with a validation accuracy of 97% (Viola Jones algorithm)',
       'Created face completion model to predict lower halves of faces with an accuracy of 81% employing ANNs',
-      'Spearheaded a team of 4 to build a face recognition model using CNN with an accuracy of 96.5%', 
+      'Spearheaded a team of 4 to build a face recognition model using CNN with an accuracy of 96.5%',
     ],
-    project_link: null,
+    project_links: null,
   },
   {
     id: 8,
@@ -241,14 +274,13 @@ export const projectsMockData = [
     tech_stack: 'Python, OpenCV, MongoDB, Express.js, Angular, Node.js',
     project_avatar: smartClassroom,
     project_info: [
-      'Built the chair detection model using YOLOv3 to detect the number of chairs with an accuracy of 99%', 
+      'Built the chair detection model using YOLOv3 to detect the number of chairs with an accuracy of 99%',
       'Contributed critical modules in the smart class dashboard using the MEAN stack, to be used by potentially all employees at Infosys Training Centers',
-      'Combined skills in computer vision and full-stack web development to create impactful solutions for real-world problems', 
+      'Combined skills in computer vision and full-stack web development to create impactful solutions for real-world problems',
     ],
-    project_link: null,
+    project_links: null,
   },
 
-  
 ];
 
 export const contactsMockData = [
@@ -331,5 +363,5 @@ export const languagesIconsMockData = [
   { id: 41, skill: 'Jupyter Notebook', icon: jupyter },
   { id: 42, skill: 'VS Code', icon: vscode },
   { id: 43, skill: 'Eclipse', icon: eclipse },
-  
+
 ];
