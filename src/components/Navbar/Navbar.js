@@ -46,9 +46,11 @@ const Navbar = () => {
                   <li data-aos="fade-down" data-aos-duration="900">
                     <a href="#skills">Skills</a>
                   </li>
-
                   <li data-aos="fade-down" data-aos-duration="1200">
                     <a href="#work">Projects</a>
+                  </li>
+                  <li data-aos="fade-down" data-aos-duration="1200">
+                    <a href="#certifications">Certifications</a>
                   </li>
                 </ul>
               </nav>

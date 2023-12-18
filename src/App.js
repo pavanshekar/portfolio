@@ -4,6 +4,7 @@ import AboutMe from "./components/AboutMe/AboutMe";
 import Footer from "./components/Footer/Footer";
 import Home from "./components/Home/Intro";
 import Projects from "./components/Projects/Projects";
+import Certifications from "./components/Certifications/Certifications";
 import Navbar from "./components/Navbar/Navbar";
 import Progress from "./components/Progress/Progress";
 import $ from "jquery";
@@ -46,6 +47,7 @@ function App() {
         <EducationExperience />
         <Progress />
         <Projects />
+        <Certifications />
         <Contact />
         <Footer />
       </BrowserRouter>

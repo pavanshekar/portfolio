@@ -23,6 +23,9 @@ export const api = createApi({
     getProjects: builder.query({
       query: () => ({ mockDataKey: 'projectsMockData' }),
     }),
+    getCertifications: builder.query({
+      query: () => ({ mockDataKey: 'certificationsMockData' }),
+    }),
     getContacts: builder.query({
       query: () => ({ mockDataKey: 'contactsMockData' }),
     }),
@@ -41,6 +44,7 @@ export const {
   useGetEducationWorkExperienceQuery,
   useGetProgressQuery,
   useGetProjectsQuery,
+  useGetCertificationsQuery,
   useGetContactsQuery,
   useGetSocialMediaQuery,
   useGetLanguagesIconsQuery,

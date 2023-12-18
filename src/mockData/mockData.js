@@ -70,6 +70,8 @@ import air from '../images/projects/air.png';
 import face from '../images/projects/face.png';
 import smartClassroom from '../images/projects/smartClassroom.jpeg';
 
+import azureCertificate from '../images/certificates/microsoft-certified-azure-fundamentals.png';
+import awsCertificate from '../images/certificates/aws-certified-developer-associate.png';
 
 export const homeDetailsMockData = {
   id: 1,
@@ -282,6 +284,22 @@ export const projectsMockData = [
   },
 
 ];
+
+export const certificationsMockData = [
+  {
+    id: 1,
+    title: 'Microsoft Certified Azure Fundamentals: AZ-900',
+    image: azureCertificate, 
+    link: 'https://www.credly.com/badges/a2717c3c-82c0-4e6f-a65e-2b4cec145af1/public_url', 
+  },
+  {
+    id: 2,
+    title: 'AWS Certified Developer - Associate',
+    image: awsCertificate, 
+    link: 'https://www.credly.com/badges/2348abe8-d06b-4665-8c50-564c37a2a5ff/public_url', 
+  },
+];
+
 
 export const contactsMockData = [
   {
