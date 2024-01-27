@@ -131,7 +131,7 @@ export const educationWorkExperienceMockData = {
       duration: 'Sep 2019 - Apr 2022',
       responsibilities: [
         'Drove innovation by playing a pivotal role in the development of three Angular-based web applications, effectively addressing evolving client needs and resulting in a 30% increase in client engagement',
-        'Contributed to the Smart Classroom project at Infosys by developing a high-accuracy YOLOv3 chair detection model and a MEAN stack-based dashboard, significantly enhancing the interactive learning environment',
+        'Contributed to the Smart Classroom project at Infosys by developing a high-accuracy YOLOv3 chair detection model using OpenCV and a MEAN stack-based dashboard, significantly enhancing the interactive learning environment',
         'Played a key role in workforce development by conducting workshops in JavaScript, Angular, and React.js for 200 employees and providing mentorship to 10 new hires in the Foundation Program',
       ],
       logo: infosys,
@@ -184,7 +184,7 @@ export const projectsMockData = [
     tech_stack: 'MongoDB, Express.js, React.js, Node.js, Firebase',
     project_avatar: foodzilla,
     project_info: [
-      'Built 3 out of 6 full stack modules, such as the auth flows (login, register, forgot password, email verification - all using JWT), add-to-cart feature, as well as the admin portal for inventory management',
+      'Built 3 out of 6 full stack modules using MERN stack, such as the auth flows (login, register, forgot password, email verification - all using JWT), add-to-cart feature, as well as the admin portal for inventory management',
       'Integrated Stripe API for seamless checkout and the Tasty API for suggesting different recipe options for consumers',
       'Leveraged Firebase as a cloud image store for the product inventory',
     ],
@@ -198,10 +198,10 @@ export const projectsMockData = [
   {
     id: 3,
     project_title: 'Event Management System',
-    tech_stack: 'HTML, CSS, Spring Boot, Hibernate, MySQL',
+    tech_stack: 'HTML, CSS, Java Spring Boot, Hibernate, MySQL',
     project_avatar: eventManagementSystem,
     project_info: [
-      'Developed a fully-functional event management system using Spring Boot, Hibernate, and MySQL, allowing users to create, manage, and promote events through an intuitive user interface',
+      'Developed a fully-functional event management system using Java Spring Boot, Hibernate, and MySQL, allowing users to create, manage, and promote events through an intuitive user interface',
       'Architected the database schema, REST APIs, and front-end views to develop a scalable and maintainable system',
       'Established robust email notification and image hosting functionality, improving overall user experience and satisfaction',
     ],
