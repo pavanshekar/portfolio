@@ -42,6 +42,7 @@ import chai from '../images/skills/chai.png';
 
 import mysql from '../images/skills/mysql.png';
 import mongodb from '../images/skills/mongodb.png';
+import postgreSQL from '../images/skills/postgreSQL.png';
 import hibernate from '../images/skills/hibernate.jpeg';
 import sequelize from '../images/skills/sequelize.png';
 
@@ -364,15 +365,16 @@ export const languagesIconsMockData = [
   { id: 12, skill: 'Django', icon: django },
   { id: 13, skill: 'Bootstrap', icon: bootstrap },
 
-  { id: 15, skill: 'Jest', icon: jest },
-  { id: 16, skill: 'Enzyme', icon: enzyme },
-  { id: 17, skill: 'Protractor', icon: protractor },
-  { id: 18, skill: 'Jasmine', icon: jasmine },
-  { id: 19, skill: 'Mocha', icon: mocha },
-  { id: 20, skill: 'Chai', icon: chai },
+  { id: 14, skill: 'Jest', icon: jest },
+  { id: 15, skill: 'Enzyme', icon: enzyme },
+  { id: 16, skill: 'Protractor', icon: protractor },
+  { id: 17, skill: 'Jasmine', icon: jasmine },
+  { id: 18, skill: 'Mocha', icon: mocha },
+  { id: 19, skill: 'Chai', icon: chai },
 
-  { id: 21, skill: 'MySQL', icon: mysql },
-  { id: 22, skill: 'MongoDB', icon: mongodb },
+  { id: 20, skill: 'MySQL', icon: mysql },
+  { id: 21, skill: 'MongoDB', icon: mongodb },
+  { id: 22, skill: 'PostgreSQL', icon: postgreSQL },
   { id: 23, skill: 'Hibernate', icon: hibernate },
   { id: 24, skill: 'Sequelize', icon: sequelize },
 

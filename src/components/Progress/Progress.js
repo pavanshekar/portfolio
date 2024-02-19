@@ -21,7 +21,7 @@ const Progress = () => {
         "Programming Languages": ["Java", "Python", "HTML", "CSS", "JavaScript", "TypeScript"],
         "Web Frameworks and Libraries": ["React.js", "Angular", "Node.js", "Express.js", "Spring Boot", "Django", "Bootstrap"],
         "Testing": ["Jest", "Enzyme", "Protractor", "Jasmine", "Mocha", "Chai"],
-        "Databases": ["MySQL", "MongoDB", "Hibernate", "Sequelize"],
+        "Databases": ["MySQL", "MongoDB", "PostgreSQL", "Hibernate", "Sequelize"],
         "Cloud": ["AWS", "Azure", "GCP", "CI/CD", "GitHub Actions", "Packer", "Pulumi"],
         "Data Science Tools and Libraries": ["NumPy", "Pandas", "SciKit-Learn", "MatPlotLib", "Seaborn", "OpenCV"],
         "Software Tools and Technologies": ["Git", "Heroku", "Anaconda", "Jupyter Notebook", "VS Code", "Eclipse"],
