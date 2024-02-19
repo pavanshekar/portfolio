@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.71494fa9.css",
-    "main.js": "/portfolio/static/js/main.0a804c86.js",
+    "main.css": "/portfolio/static/css/main.31600fe1.css",
+    "main.js": "/portfolio/static/js/main.74fc7f52.js",
     "static/media/profile_pic.jpg": "/portfolio/static/media/profile_pic.dca862e36bc3e677d35a.jpg",
     "static/media/infyMansions.jpeg": "/portfolio/static/media/infyMansions.4f9057fc5c83b2602085.jpeg",
     "static/media/eventmanagementsystem.jpg": "/portfolio/static/media/eventmanagementsystem.8ae5747607fb6eef1f94.jpg",
@@ -13,7 +13,7 @@
     "static/media/springboot.png": "/portfolio/static/media/springboot.ddd04734fe086d24fd3e.png",
     "static/media/face.png": "/portfolio/static/media/face.45dd818d4cc7c8b110d2.png",
     "static/media/fsd.png": "/portfolio/static/media/fsd.008105e29b3e0a74870f.png",
-    "static/media/resume.pdf": "/portfolio/static/media/resume.665329989fa812d36f6b.pdf",
+    "static/media/resume.pdf": "/portfolio/static/media/resume.c42474c1cb5394a2244a.pdf",
     "static/media/cicd.png": "/portfolio/static/media/cicd.ddcf55b047c09ef7b859.png",
     "static/media/azure.png": "/portfolio/static/media/azure.77336339875136303870.png",
     "static/media/heroku.png": "/portfolio/static/media/heroku.58328e43a9f7811194ed.png",
@@ -31,7 +31,6 @@
     "static/media/githubActions.png": "/portfolio/static/media/githubActions.6a7d0d6ce47b6a0a10d4.png",
     "static/media/jupyter.png": "/portfolio/static/media/jupyter.ae5f753ee8ad47365976.png",
     "static/media/enzyme.png": "/portfolio/static/media/enzyme.11ff660fdd5a586a89db.png",
-    "static/media/tailwindCSS.jpeg": "/portfolio/static/media/tailwindCSS.9ec2199f68c0aee14962.jpeg",
     "static/media/node.png": "/portfolio/static/media/node.007e99f68b718e476aba.png",
     "static/media/eclipse.png": "/portfolio/static/media/eclipse.fc43c115d8f5fc40d7c2.png",
     "static/media/microsoft-certified-azure-fundamentals.png": "/portfolio/static/media/microsoft-certified-azure-fundamentals.6bcb975a264f4651d681.png",
@@ -53,11 +52,11 @@
     "static/media/react.png": "/portfolio/static/media/react.ef20e673b9282f8f30fd.png",
     "static/media/matPlotLib.png": "/portfolio/static/media/matPlotLib.20692538caf6386bc94d.png",
     "index.html": "/portfolio/index.html",
-    "main.71494fa9.css.map": "/portfolio/static/css/main.71494fa9.css.map",
-    "main.0a804c86.js.map": "/portfolio/static/js/main.0a804c86.js.map"
+    "main.31600fe1.css.map": "/portfolio/static/css/main.31600fe1.css.map",
+    "main.74fc7f52.js.map": "/portfolio/static/js/main.74fc7f52.js.map"
   },
   "entrypoints": [
-    "static/css/main.71494fa9.css",
-    "static/js/main.0a804c86.js"
+    "static/css/main.31600fe1.css",
+    "static/js/main.74fc7f52.js"
   ]
 }
