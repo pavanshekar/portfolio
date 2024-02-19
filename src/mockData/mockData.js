@@ -99,7 +99,7 @@ export const educationWorkExperienceMockData = {
       university: 'Northeastern University',
       degree: 'MS, Information Systems',
       completionDate: 'Expected May 2024',
-      coursework: ['Concepts of Object Oriented Design', 'Application Engineering & Development', 'Web Design & User Experience Engineering', 'Database Management & Database Design', 'Web Development Tools & Methods', 'Network Structures & Cloud Computing'],
+      coursework: ['Concepts of Object Oriented Design', 'Application Engineering & Development', 'Web Design & User Experience Engineering', 'Database Management & Database Design', 'Web Development Tools & Methods', 'Network Structures & Cloud Computing', 'Advanced Big-Data Applications/Indexing'],
       logo: neu,
     },
     {
