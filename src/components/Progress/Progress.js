@@ -19,7 +19,7 @@ const Progress = () => {
 
     const skillCategories = {
         "Programming Languages": ["Java", "Python", "HTML", "CSS", "JavaScript", "TypeScript"],
-        "Web Frameworks and Libraries": ["Angular", "React.js", "Node.js", "Express.js", "Spring Boot", "jQuery", "Bootstrap", "Tailwind CSS"],
+        "Web Frameworks and Libraries": ["React.js", "Angular", "Node.js", "Express.js", "Spring Boot", "Django", "Bootstrap"],
         "Testing": ["Jest", "Enzyme", "Protractor", "Jasmine", "Mocha", "Chai"],
         "Databases": ["MySQL", "MongoDB", "Hibernate", "Sequelize"],
         "Cloud": ["AWS", "Azure", "GCP", "CI/CD", "GitHub Actions", "Packer", "Pulumi"],

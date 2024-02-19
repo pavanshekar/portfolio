@@ -36,7 +36,7 @@
     border: 1px solid rgb(255 255 255 / 0.1);
     border-radius: 17px;
     padding: 20px;
-    min-height: 640px;
+    min-height: 660px;
   }
 
   .project-img {
@@ -168,7 +168,7 @@
   @media only screen and (max-width: 768px) {
     .project {
       width: 200px;
-      min-height: 760px;
+      min-height: 780px;
     }
     .mywork .mywork-title {
       text-align: center;

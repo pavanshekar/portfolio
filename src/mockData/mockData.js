@@ -24,9 +24,8 @@ import react from '../images/skills/react.png';
 import node from '../images/skills/node.png';
 import express from '../images/skills/express.png';
 import springboot from '../images/skills/springboot.png';
-import jquery from '../images/skills/jquery.png';
+import django from '../images/skills/django.png';
 import bootstrap from '../images/skills/bootstrap.png';
-import tailwindCSS from '../images/skills/tailwindCSS.jpeg';
 import numPy from '../images/skills/numPy.png';
 import pandas from '../images/skills/pandas.png';
 import sciKitLearn from '../images/skills/sciKit-learn.jpg';
@@ -64,6 +63,7 @@ import pulumi from '../images/skills/pulumi.png';
 import eduAssign from '../images/projects/eduAssign.png';
 import foodzilla from '../images/projects/foodzilla.png';
 import eventManagementSystem from '../images/projects/eventmanagementsystem.jpg';
+import inventoryHub from '../images/projects/inventoryHub.png';
 import infyMansions from '../images/projects/infyMansions.jpeg';
 import banking from '../images/projects/banking.png';
 import air from '../images/projects/air.png';
@@ -156,12 +156,12 @@ export const projectsMockData = [
   {
     id: 1,
     project_title: 'EduAssign',
-    tech_stack: 'Node.js, Express.js, MySQL, Sequelize, Mocha, Chai, Packer, Pulumi, AWS',
+    tech_stack: 'Node.js, Express.js, MySQL, Sequelize, Mocha, Chai, Packer, Pulumi, AWS, GCP',
     project_avatar: eduAssign,
     project_info: [
-      'Crafted EduAssign using Node.js/Express.js with Sequelize for MySQL, streamlining assignment management',
-      'Implemented CI/CD with GitHub Actions for automated testing (Mocha/Chai) and AMI creation via Packer, enhancing development workflow and deployment',
-      'Augmented the infrastructure using AWS EC2, Lambda, SNS, SES, Route 53 for DNS management and Google Cloud Storage employing Pulumi, emphasizing load balancing, auto-scaling and CloudWatch for comprehensive logging and monitoring',
+      'Crafted EduAssign with Node.js/Express.js and Sequelize for MySQL, enhancing assignment management by 40%',
+      'Executed CI/CD with GitHub Actions, integrating Mocha/Chai for integration testing and Packer for AMI creation, reducing deployment times by 60% and bugs by 25%, streamlining development and deployment',
+      'Augmented AWS infrastructure (EC2, Lambda, SNS, SES, Route 53) with load balancing, auto-scaling, CloudWatch, SSL certificates, and GCP for GitHub downloads via Pulumi, doubling user load capacity and cutting management effort by 70%',
     ],
     project_links: [
       {
@@ -184,9 +184,9 @@ export const projectsMockData = [
     tech_stack: 'MongoDB, Express.js, React.js, Node.js, Firebase',
     project_avatar: foodzilla,
     project_info: [
-      'Built 3 out of 6 full stack modules using MERN stack, such as the auth flows (login, register, forgot password, email verification - all using JWT), add-to-cart feature, as well as the admin portal for inventory management',
+      'Built 3 crucial full stack modules using MERN stack, such as the auth flows (login, register, forgot password, email verification, all using JWT), add-to-cart feature, and admin portal, enhancing and securing user registration/login efficiency by 35%',
       'Integrated Stripe API for seamless checkout and the Tasty API for suggesting different recipe options for consumers',
-      'Leveraged Firebase as a cloud image store for the product inventory',
+      'Leveraged Firebase as a cloud image store, boosting inventory management with 60% faster image retrieval',
     ],
     project_links: [
       {
@@ -201,9 +201,9 @@ export const projectsMockData = [
     tech_stack: 'HTML, CSS, Java Spring Boot, Hibernate, MySQL',
     project_avatar: eventManagementSystem,
     project_info: [
-      'Developed a fully-functional event management system using Java Spring Boot, Hibernate, and MySQL, allowing users to create, manage, and promote events through an intuitive user interface',
+      'Developed a fully-functional event management system using Java Spring Boot, Hibernate, and MySQL, allowing users to create, manage, and promote events through an intuitive user interface, handling over 200 events seamlessly',
       'Architected the database schema, REST APIs, and front-end views to develop a scalable and maintainable system',
-      'Established robust email notification and image hosting functionality, improving overall user experience and satisfaction',
+      'Established robust email notification and image hosting, leading to a 10% increase in overall user experience and satisfaction',
     ],
     project_links: [
       {
@@ -214,6 +214,23 @@ export const projectsMockData = [
   },
   {
     id: 4,
+    project_title: 'InventoryHub',
+    tech_stack: 'Python, Django, PostgreSQL, Heroku',
+    project_avatar: inventoryHub,
+    project_info: [
+      'Strategized and implemented a highly resilient Django REST Framework API, enforcing data integrity and security with rigorous validation, authentication, and authorization using Token Authentication',
+      'Orchestrated the implementation of a scalable database schema using PostgreSQL, optimizing performance and scalability',
+      'Incorporated Swagger for automatic API documentation and seamlessly deployed the Django application on Heroku, streamlining the development workflow, resulting in a 20% decrease in deployment time',
+    ],
+    project_links: [
+      {
+        text: 'Source Code',
+        url: 'https://github.com/pavanshekar/Kaizntree-Back-End-Take-Home-Challenge'
+      }
+    ],
+  },
+  {
+    id: 5,
     project_title: 'InfyMansions',
     tech_stack: 'MongoDB, Express.js, Angular, Node.js',
     project_avatar: infyMansions,
@@ -225,7 +242,7 @@ export const projectsMockData = [
     project_links: null,
   },
   {
-    id: 5,
+    id: 6,
     project_title: 'Banking Management System',
     tech_stack: 'Java, Java Swing, MySQL',
     project_avatar: banking,
@@ -242,7 +259,7 @@ export const projectsMockData = [
     ]
   },
   {
-    id: 6,
+    id: 7,
     project_title: 'Air Quality Prediction',
     tech_stack: 'Python, NumPy, Pandas, Sci-Kit Learn, MatplotLib, Seaborn',
     project_avatar: air,
@@ -259,7 +276,7 @@ export const projectsMockData = [
     ],
   },
   {
-    id: 7,
+    id: 8,
     project_title: 'Face Modelling and Face Recognition from Complex and Crowded Images',
     tech_stack: 'Python, OpenCV, Neural Networks',
     project_avatar: face,
@@ -271,7 +288,7 @@ export const projectsMockData = [
     project_links: null,
   },
   {
-    id: 8,
+    id: 9,
     project_title: 'Smart Class for a Sentient Organisation',
     tech_stack: 'Python, OpenCV, MongoDB, Express.js, Angular, Node.js',
     project_avatar: smartClassroom,
@@ -339,14 +356,13 @@ export const languagesIconsMockData = [
   { id: 5, skill: 'JavaScript', icon: js },
   { id: 6, skill: 'TypeScript', icon: typescript },
 
-  { id: 7, skill: 'Angular', icon: angular },
-  { id: 8, skill: 'React.js', icon: react },
+  { id: 7, skill: 'React.js', icon: react },
+  { id: 8, skill: 'Angular', icon: angular },
   { id: 9, skill: 'Node.js', icon: node },
   { id: 10, skill: 'Express.js', icon: express },
   { id: 11, skill: 'Spring Boot', icon: springboot },
-  { id: 12, skill: 'jQuery', icon: jquery },
+  { id: 12, skill: 'Django', icon: django },
   { id: 13, skill: 'Bootstrap', icon: bootstrap },
-  { id: 14, skill: 'Tailwind CSS', icon: tailwindCSS },
 
   { id: 15, skill: 'Jest', icon: jest },
   { id: 16, skill: 'Enzyme', icon: enzyme },
