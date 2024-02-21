@@ -37,6 +37,7 @@ import jest from '../images/skills/jest.png';
 import enzyme from '../images/skills/enzyme.png';
 import protractor from '../images/skills/protractor.png';
 import jasmine from '../images/skills/jasmine.png';
+import karma from '../images/skills/karma.png';
 import mocha from '../images/skills/mocha.png';
 import chai from '../images/skills/chai.png';
 
@@ -57,6 +58,7 @@ import packer from '../images/skills/packer.png';
 import aws from '../images/skills/aws.png';
 import azure from '../images/skills/azure.png';
 import gcp from '../images/skills/gcp.png';
+import docker from '../images/skills/docker.png';
 import cicd from '../images/skills/cicd.png';
 import githubActions from '../images/skills/githubActions.png';
 import pulumi from '../images/skills/pulumi.png';
@@ -65,11 +67,8 @@ import eduAssign from '../images/projects/eduAssign.png';
 import foodzilla from '../images/projects/foodzilla.png';
 import eventManagementSystem from '../images/projects/eventmanagementsystem.jpg';
 import inventoryHub from '../images/projects/inventoryHub.png';
-import infyMansions from '../images/projects/infyMansions.jpeg';
 import banking from '../images/projects/banking.png';
-import air from '../images/projects/air.png';
 import face from '../images/projects/face.png';
-import smartClassroom from '../images/projects/smartClassroom.jpeg';
 
 import azureCertificate from '../images/certificates/microsoft-certified-azure-fundamentals.png';
 import awsCertificate from '../images/certificates/aws-certified-developer-associate.png';
@@ -119,9 +118,10 @@ export const educationWorkExperienceMockData = {
       company: 'OnSolve',
       duration: 'Apr 2022 - Aug 2022',
       responsibilities: [
-        'Enhanced and integrated 12 front-end modules of the OnSolve Platform using React.js and Redux, improving performance by 15%',
-        'Implemented unit tests for front-end modules employing Jest and Enzyme for React with code coverage of over 90%',
-        'Ensured high quality through stringent code reviews and administered two OnSolve.UI releases via CI/CD with GitHub Actions',
+        "Created engaging user interfaces for the OnSolve platform, focusing on responsiveness and user experience using React.js",
+        "Boosted OnSolve platform's performance by 15% by integrating 3 front-end modules and employing React.js (lazy loading, code splitting) and Redux for state management and memoization, reducing load times",
+        "Implemented unit tests for front-end modules employing Jest and Enzyme for React.js with code coverage of over 90%",
+        "Ensured high quality through stringent code reviews and administered 2 OnSolve.UI releases via CI/CD with GitHub Actions, seamlessly integrating Docker for efficient updates delivery",
       ],
       logo: onsolve,
     },
@@ -131,8 +131,10 @@ export const educationWorkExperienceMockData = {
       company: 'Infosys',
       duration: 'Sep 2019 - Apr 2022',
       responsibilities: [
-        'Drove innovation by playing a pivotal role in the development of three Angular-based web applications, effectively addressing evolving client needs and resulting in a 30% increase in client engagement',
-        'Contributed to the Smart Classroom project at Infosys by developing a high-accuracy YOLOv3 chair detection model using OpenCV and a MEAN stack-based dashboard, significantly enhancing the interactive learning environment',
+        'Drove innovation by playing a pivotal role in the development of 2 Angular-based web applications, effectively addressing evolving client needs and resulting in a 30% increase in client engagement',
+        'Spearheaded the Smart Classroom project at Infosys by developing a high-accuracy YOLOv3 based chair detection model using OpenCV and a MEAN stack-based dashboard, significantly enhancing the interactive learning environment',
+        'Contributed to the InfyMansions project, developing full-stack modules with MEAN stack technologies and integrating Material UI for enhanced user interface design',
+        'Formulated a comprehensive testing strategy utilizing Protractor, Jasmine, and Karma frameworks, achieving 90% test coverage for end-to-end and unit testing',
         'Played a key role in workforce development by conducting workshops in JavaScript, Angular, and React.js for 200 employees and providing mentorship to 10 new hires in the Foundation Program',
       ],
       logo: infosys,
@@ -232,18 +234,6 @@ export const projectsMockData = [
   },
   {
     id: 5,
-    project_title: 'InfyMansions',
-    tech_stack: 'MongoDB, Express.js, Angular, Node.js',
-    project_avatar: infyMansions,
-    project_info: [
-      'Incorporated Angular, Material UI to construct 6 UI/UX modules, and orchestrated back-end with Node.js and Express.js',
-      'Employed Protractor and Jasmine for end-to-end testing (90% coverage); applied Mocha and Chai for integration tests',
-      'Improved code quality and maintainability by 20% using tslint and eslint for linting standards',
-    ],
-    project_links: null,
-  },
-  {
-    id: 6,
     project_title: 'Banking Management System',
     tech_stack: 'Java, Java Swing, MySQL',
     project_avatar: banking,
@@ -260,24 +250,7 @@ export const projectsMockData = [
     ]
   },
   {
-    id: 7,
-    project_title: 'Air Quality Prediction',
-    tech_stack: 'Python, NumPy, Pandas, Sci-Kit Learn, MatplotLib, Seaborn',
-    project_avatar: air,
-    project_info: [
-      'Devised a Python-based Air Quality Prediction model leveraging the Air Quality Dataset-UCI Machine Learning repository, yielding significant advancements in urban air quality forecasting',
-      'Engineered a machine learning suite that accurately predicts urban benzene levels and temperature variations',
-      'Utilized Linear, Lasso and Decision Tree Regression, achieving a 99.6% accuracy in urban air quality monitoring',
-    ],
-    project_links: [
-      {
-        text: 'Source Code',
-        url: 'https://github.com/pavanshekar/Air-quality-prediction',
-      }
-    ],
-  },
-  {
-    id: 8,
+    id: 6,
     project_title: 'Face Modelling and Face Recognition from Complex and Crowded Images',
     tech_stack: 'Python, OpenCV, Neural Networks',
     project_avatar: face,
@@ -285,18 +258,6 @@ export const projectsMockData = [
       'Constructed an OpenCV-based face detection model with a validation accuracy of 97% (Viola Jones algorithm)',
       'Created face completion model to predict lower halves of faces with an accuracy of 81% employing ANNs',
       'Spearheaded a team of 4 to build a face recognition model using CNN with an accuracy of 96.5%',
-    ],
-    project_links: null,
-  },
-  {
-    id: 9,
-    project_title: 'Smart Class for a Sentient Organisation',
-    tech_stack: 'Python, OpenCV, MongoDB, Express.js, Angular, Node.js',
-    project_avatar: smartClassroom,
-    project_info: [
-      'Built the chair detection model using YOLOv3 to detect the number of chairs with an accuracy of 99%',
-      'Contributed critical modules in the smart class dashboard using the MEAN stack, to be used by potentially all employees at Infosys Training Centers',
-      'Combined skills in computer vision and full-stack web development to create impactful solutions for real-world problems',
     ],
     project_links: null,
   },
@@ -369,35 +330,37 @@ export const languagesIconsMockData = [
   { id: 15, skill: 'Enzyme', icon: enzyme },
   { id: 16, skill: 'Protractor', icon: protractor },
   { id: 17, skill: 'Jasmine', icon: jasmine },
-  { id: 18, skill: 'Mocha', icon: mocha },
-  { id: 19, skill: 'Chai', icon: chai },
+  { id: 18, skill: 'Karma', icon: karma },
+  { id: 19, skill: 'Mocha', icon: mocha },
+  { id: 20, skill: 'Chai', icon: chai },
 
-  { id: 20, skill: 'MySQL', icon: mysql },
-  { id: 21, skill: 'MongoDB', icon: mongodb },
-  { id: 22, skill: 'PostgreSQL', icon: postgreSQL },
-  { id: 23, skill: 'Hibernate', icon: hibernate },
-  { id: 24, skill: 'Sequelize', icon: sequelize },
+  { id: 21, skill: 'MySQL', icon: mysql },
+  { id: 22, skill: 'MongoDB', icon: mongodb },
+  { id: 23, skill: 'PostgreSQL', icon: postgreSQL },
+  { id: 24, skill: 'Hibernate', icon: hibernate },
+  { id: 25, skill: 'Sequelize', icon: sequelize },
 
-  { id: 25, skill: 'AWS', icon: aws },
-  { id: 26, skill: 'Azure', icon: azure },
-  { id: 27, skill: 'GCP', icon: gcp },
-  { id: 28, skill: 'CI/CD', icon: cicd },
-  { id: 29, skill: 'GitHub Actions', icon: githubActions },
-  { id: 30, skill: 'Packer', icon: packer },
-  { id: 31, skill: 'Pulumi', icon: pulumi },
+  { id: 26, skill: 'AWS', icon: aws },
+  { id: 27, skill: 'Azure', icon: azure },
+  { id: 28, skill: 'GCP', icon: gcp },
+  { id: 29, skill: 'Docker', icon: docker },
+  { id: 30, skill: 'CI/CD', icon: cicd },
+  { id: 31, skill: 'GitHub Actions', icon: githubActions },
+  { id: 32, skill: 'Packer', icon: packer },
+  { id: 33, skill: 'Pulumi', icon: pulumi },
 
-  { id: 32, skill: 'NumPy', icon: numPy },
-  { id: 33, skill: 'Pandas', icon: pandas },
-  { id: 34, skill: 'SciKit-Learn', icon: sciKitLearn },
-  { id: 35, skill: 'MatPlotLib', icon: matPlotLib },
-  { id: 36, skill: 'Seaborn', icon: seaborn },
-  { id: 37, skill: 'OpenCV', icon: openCV },
+  { id: 34, skill: 'NumPy', icon: numPy },
+  { id: 35, skill: 'Pandas', icon: pandas },
+  { id: 36, skill: 'SciKit-Learn', icon: sciKitLearn },
+  { id: 36, skill: 'MatPlotLib', icon: matPlotLib },
+  { id: 37, skill: 'Seaborn', icon: seaborn },
+  { id: 38, skill: 'OpenCV', icon: openCV },
 
-  { id: 38, skill: 'Git', icon: git },
-  { id: 39, skill: 'Heroku', icon: heroku },
-  { id: 40, skill: 'Anaconda', icon: anaconda },
-  { id: 41, skill: 'Jupyter Notebook', icon: jupyter },
-  { id: 42, skill: 'VS Code', icon: vscode },
-  { id: 43, skill: 'Eclipse', icon: eclipse },
+  { id: 39, skill: 'Git', icon: git },
+  { id: 40, skill: 'Heroku', icon: heroku },
+  { id: 41, skill: 'Anaconda', icon: anaconda },
+  { id: 42, skill: 'Jupyter Notebook', icon: jupyter },
+  { id: 43, skill: 'VS Code', icon: vscode },
+  { id: 44, skill: 'Eclipse', icon: eclipse },
 
 ];
