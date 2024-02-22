@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.31600fe1.css",
-    "main.js": "/portfolio/static/js/main.744427be.js",
+    "main.css": "/portfolio/static/css/main.7304e9e9.css",
+    "main.js": "/portfolio/static/js/main.01a5ee55.js",
     "static/media/profile_pic.jpg": "/portfolio/static/media/profile_pic.dca862e36bc3e677d35a.jpg",
     "static/media/eventmanagementsystem.jpg": "/portfolio/static/media/eventmanagementsystem.8ae5747607fb6eef1f94.jpg",
     "static/media/background.png": "/portfolio/static/media/background.78f65f0d57d328c7311a.png",
@@ -11,7 +11,7 @@
     "static/media/springboot.png": "/portfolio/static/media/springboot.ddd04734fe086d24fd3e.png",
     "static/media/face.png": "/portfolio/static/media/face.45dd818d4cc7c8b110d2.png",
     "static/media/fsd.png": "/portfolio/static/media/fsd.008105e29b3e0a74870f.png",
-    "static/media/resume.pdf": "/portfolio/static/media/resume.cbc0a469321b415355fb.pdf",
+    "static/media/resume.pdf": "/portfolio/static/media/resume.7116de1a42b97881401b.pdf",
     "static/media/cicd.png": "/portfolio/static/media/cicd.ddcf55b047c09ef7b859.png",
     "static/media/azure.png": "/portfolio/static/media/azure.77336339875136303870.png",
     "static/media/heroku.png": "/portfolio/static/media/heroku.58328e43a9f7811194ed.png",
@@ -49,11 +49,11 @@
     "static/media/react.png": "/portfolio/static/media/react.ef20e673b9282f8f30fd.png",
     "static/media/matPlotLib.png": "/portfolio/static/media/matPlotLib.20692538caf6386bc94d.png",
     "index.html": "/portfolio/index.html",
-    "main.31600fe1.css.map": "/portfolio/static/css/main.31600fe1.css.map",
-    "main.744427be.js.map": "/portfolio/static/js/main.744427be.js.map"
+    "main.7304e9e9.css.map": "/portfolio/static/css/main.7304e9e9.css.map",
+    "main.01a5ee55.js.map": "/portfolio/static/js/main.01a5ee55.js.map"
   },
   "entrypoints": [
-    "static/css/main.31600fe1.css",
-    "static/js/main.744427be.js"
+    "static/css/main.7304e9e9.css",
+    "static/js/main.01a5ee55.js"
   ]
 }
