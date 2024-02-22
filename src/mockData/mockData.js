@@ -121,7 +121,7 @@ export const educationWorkExperienceMockData = {
         "Created engaging user interfaces for the OnSolve platform, focusing on responsiveness and user experience using React.js",
         "Boosted OnSolve platform's performance by 15% by integrating 3 front-end modules and employing React.js (lazy loading, code splitting) and Redux for state management and memoization, reducing load times",
         "Implemented unit tests for front-end modules employing Jest and Enzyme for React.js with code coverage of over 90%",
-        "Ensured high quality through stringent code reviews and administered 2 OnSolve.UI releases via CI/CD with GitHub Actions, seamlessly integrating Docker for efficient updates delivery",
+        "Ensured high quality through stringent code reviews and administered 2 OnSolve.UI releases via CI/CD with GitHub Actions, seamlessly integrating Docker for efficient delivery in containerized environments",
       ],
       logo: onsolve,
     },

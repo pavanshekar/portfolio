@@ -77,7 +77,7 @@ const AboutMe = () => {
                 rel="noopener noreferrer"
               >
                 <button className="download-cv">
-                  Download Cv <i className="bx bx-download"></i>
+                  Download Resume <i className="bx bx-download"></i>
                 </button>
               </a>
             </div>
