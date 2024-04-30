@@ -44,6 +44,9 @@ import chai from '../images/skills/chai.png';
 import mysql from '../images/skills/mysql.png';
 import mongodb from '../images/skills/mongodb.png';
 import postgreSQL from '../images/skills/postgreSQL.png';
+import redis from '../images/skills/redis.png';
+import rabbitmq from '../images/skills/rabbitmq.png';
+import elasticsearch from '../images/skills/elasticsearch.png';
 import hibernate from '../images/skills/hibernate.jpeg';
 import sequelize from '../images/skills/sequelize.png';
 
@@ -65,6 +68,7 @@ import pulumi from '../images/skills/pulumi.png';
 
 import eduAssign from '../images/projects/eduAssign.png';
 import foodzilla from '../images/projects/foodzilla.png';
+import flexiquery from '../images/projects/flexiquery.jpeg';
 import eventManagementSystem from '../images/projects/eventmanagementsystem.jpg';
 import inventoryHub from '../images/projects/inventoryHub.png';
 import banking from '../images/projects/banking.png';
@@ -118,10 +122,10 @@ export const educationWorkExperienceMockData = {
       company: 'OnSolve',
       duration: 'Apr 2022 - Aug 2022',
       responsibilities: [
-        "Created engaging user interfaces for the OnSolve platform, focusing on responsiveness and user experience using React.js",
-        "Boosted OnSolve platform's performance by 15% by integrating 3 front-end modules and employing React.js (lazy loading, code splitting) and Redux for state management and memoization, reducing load times",
-        "Implemented unit tests for front-end modules employing Jest and Enzyme for React.js with code coverage of over 90%",
-        "Ensured high quality through stringent code reviews and administered 2 OnSolve.UI releases via CI/CD with GitHub Actions, seamlessly integrating Docker for efficient delivery in containerized environments",
+        "Created the UI for the OnSolve platform, focusing on responsiveness and user experience using React.js",
+        "Boosted the platform's performance by 15% by integrating 3 front-end modules and utilizing React.js for lazy loading and code splitting and Redux for state management and memoization, reducing load times",
+        "Implemented unit tests for front-end modules using Jest and Enzyme with 90%+ code coverage",
+        "Ensured high quality through stringent code reviews and administered 2 OnSolve.UI releases via GitHub Actions, seamlessly integrating Docker for efficient delivery in containerized environments",
       ],
       logo: onsolve,
     },
@@ -132,10 +136,10 @@ export const educationWorkExperienceMockData = {
       duration: 'Sep 2019 - Apr 2022',
       responsibilities: [
         'Drove innovation by playing a pivotal role in the development of 2 Angular-based web applications, effectively addressing evolving client needs and resulting in a 30% increase in client engagement',
-        'Spearheaded the Smart Classroom project at Infosys by developing a high-accuracy YOLOv3 based chair detection model using OpenCV and a MEAN stack-based dashboard, significantly enhancing the interactive learning environment',
+        'Developed a high-accuracy YOLOv3 chair detection model for Smart Classroom using OpenCV and a MEAN stack-based dashboard, significantly enhancing the interactive learning environment',
         'Contributed to the InfyMansions project, developing full-stack modules with MEAN stack technologies and integrating Material UI for enhanced user interface design',
         'Formulated a comprehensive testing strategy utilizing Protractor, Jasmine, and Karma frameworks, achieving 90% test coverage for end-to-end and unit testing',
-        'Played a key role in workforce development by conducting workshops in JavaScript, Angular, and React.js for 200 employees and providing mentorship to 10 new hires in the Foundation Program',
+        'Hosted workshops in JavaScript, Angular, and React.js for 200+ employees and mentored to 10 new hires',
       ],
       logo: infosys,
     },
@@ -162,9 +166,9 @@ export const projectsMockData = [
     tech_stack: 'Node.js, Express.js, MySQL, Sequelize, Mocha, Chai, Packer, Pulumi, AWS, GCP',
     project_avatar: eduAssign,
     project_info: [
-      'Crafted EduAssign with Node.js/Express.js and Sequelize for MySQL, enhancing assignment management by 40%',
-      'Executed CI/CD with GitHub Actions, integrating Mocha/Chai for integration testing and Packer for AMI creation, reducing deployment times by 60% and bugs by 25%, streamlining development and deployment',
-      'Augmented AWS infrastructure (EC2, Lambda, SNS, SES, Route 53) with load balancing, auto-scaling, CloudWatch, SSL certificates, and GCP for GitHub downloads via Pulumi, doubling user load capacity and cutting management effort by 70%',
+      'Developed EduAssign using Node.js, Express.js, and Sequelize, enhancing assignment management by 40%',
+      'Utilized GitHub Actions for CI/CD, Mocha/Chai for integration testing, and Packer for AMI creation, which streamlined development, decreased deployment times by 60%, and reduced bugs by 25%',
+      'Augmented AWS infrastructure (EC2, Lambda, SNS, SES, Route 53) with load balancing, auto-scaling, CloudWatch, SSL certificates, and GCP for GitHub downloads via Terraform, doubling user load capacity and cutting management effort by 70%',
     ],
     project_links: [
       {
@@ -200,6 +204,23 @@ export const projectsMockData = [
   },
   {
     id: 3,
+    project_title: 'FlexiQuery',
+    tech_stack: 'Spring Boot, Elasticsearch, RabbitMQ, Redis, Google OAuth 2.0',
+    project_avatar: flexiquery,
+    project_info: [
+      'Optimized large dataset management with FlexiQuery, using Spring Boot and Elasticsearch for query efficiency',
+      'Elevated real-time data freshness and optimized performance by integrating RabbitMQ for synchronization and Redis for caching and utilizing ETag for enhanced data integrity',
+      'Deployed Google OAuth 2.0, effectively safeguarding against unauthorized access and fortifying data privacy',
+    ],
+    project_links: [
+      {
+        text: 'Source Code',
+        url: 'https://github.com/pavanshekar/FlexiQuery'
+      }
+    ],
+  },
+  {
+    id: 4,
     project_title: 'Event Management System',
     tech_stack: 'HTML, CSS, Java Spring Boot, Hibernate, MySQL',
     project_avatar: eventManagementSystem,
@@ -216,7 +237,7 @@ export const projectsMockData = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     project_title: 'InventoryHub',
     tech_stack: 'Python, Django, PostgreSQL, Heroku',
     project_avatar: inventoryHub,
@@ -233,7 +254,7 @@ export const projectsMockData = [
     ],
   },
   {
-    id: 5,
+    id: 6,
     project_title: 'Banking Management System',
     tech_stack: 'Java, Java Swing, MySQL',
     project_avatar: banking,
@@ -250,7 +271,7 @@ export const projectsMockData = [
     ]
   },
   {
-    id: 6,
+    id: 7,
     project_title: 'Face Modelling and Face Recognition from Complex and Crowded Images',
     tech_stack: 'Python, OpenCV, Neural Networks',
     project_avatar: face,
@@ -337,30 +358,33 @@ export const languagesIconsMockData = [
   { id: 21, skill: 'MySQL', icon: mysql },
   { id: 22, skill: 'MongoDB', icon: mongodb },
   { id: 23, skill: 'PostgreSQL', icon: postgreSQL },
-  { id: 24, skill: 'Hibernate', icon: hibernate },
-  { id: 25, skill: 'Sequelize', icon: sequelize },
+  { id: 24, skill: 'Redis', icon: redis },
+  { id: 25, skill: 'RabbitMQ', icon: rabbitmq },
+  { id: 26, skill: 'Elasticsearch', icon: elasticsearch },
+  { id: 27, skill: 'Hibernate', icon: hibernate },
+  { id: 28, skill: 'Sequelize', icon: sequelize },
 
-  { id: 26, skill: 'AWS', icon: aws },
-  { id: 27, skill: 'Azure', icon: azure },
-  { id: 28, skill: 'GCP', icon: gcp },
-  { id: 29, skill: 'Docker', icon: docker },
-  { id: 30, skill: 'CI/CD', icon: cicd },
-  { id: 31, skill: 'GitHub Actions', icon: githubActions },
-  { id: 32, skill: 'Packer', icon: packer },
-  { id: 33, skill: 'Pulumi', icon: pulumi },
+  { id: 29, skill: 'AWS', icon: aws },
+  { id: 30, skill: 'Azure', icon: azure },
+  { id: 31, skill: 'GCP', icon: gcp },
+  { id: 32, skill: 'Docker', icon: docker },
+  { id: 33, skill: 'CI/CD', icon: cicd },
+  { id: 34, skill: 'GitHub Actions', icon: githubActions },
+  { id: 35, skill: 'Packer', icon: packer },
+  { id: 36, skill: 'Pulumi', icon: pulumi },
 
-  { id: 34, skill: 'NumPy', icon: numPy },
-  { id: 35, skill: 'Pandas', icon: pandas },
-  { id: 36, skill: 'SciKit-Learn', icon: sciKitLearn },
-  { id: 36, skill: 'MatPlotLib', icon: matPlotLib },
-  { id: 37, skill: 'Seaborn', icon: seaborn },
-  { id: 38, skill: 'OpenCV', icon: openCV },
+  { id: 37, skill: 'NumPy', icon: numPy },
+  { id: 38, skill: 'Pandas', icon: pandas },
+  { id: 39, skill: 'SciKit-Learn', icon: sciKitLearn },
+  { id: 40, skill: 'MatPlotLib', icon: matPlotLib },
+  { id: 41, skill: 'Seaborn', icon: seaborn },
+  { id: 42, skill: 'OpenCV', icon: openCV },
 
-  { id: 39, skill: 'Git', icon: git },
-  { id: 40, skill: 'Heroku', icon: heroku },
-  { id: 41, skill: 'Anaconda', icon: anaconda },
-  { id: 42, skill: 'Jupyter Notebook', icon: jupyter },
-  { id: 43, skill: 'VS Code', icon: vscode },
-  { id: 44, skill: 'Eclipse', icon: eclipse },
+  { id: 43, skill: 'Git', icon: git },
+  { id: 44, skill: 'Heroku', icon: heroku },
+  { id: 45, skill: 'Anaconda', icon: anaconda },
+  { id: 46, skill: 'Jupyter Notebook', icon: jupyter },
+  { id: 47, skill: 'VS Code', icon: vscode },
+  { id: 48, skill: 'Eclipse', icon: eclipse },
 
 ];
