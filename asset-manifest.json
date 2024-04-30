@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.7304e9e9.css",
-    "main.js": "/portfolio/static/js/main.01a5ee55.js",
+    "main.js": "/portfolio/static/js/main.a1ca6bde.js",
     "static/media/profile_pic.jpg": "/portfolio/static/media/profile_pic.dca862e36bc3e677d35a.jpg",
     "static/media/eventmanagementsystem.jpg": "/portfolio/static/media/eventmanagementsystem.8ae5747607fb6eef1f94.jpg",
     "static/media/background.png": "/portfolio/static/media/background.78f65f0d57d328c7311a.png",
@@ -12,6 +12,7 @@
     "static/media/face.png": "/portfolio/static/media/face.45dd818d4cc7c8b110d2.png",
     "static/media/fsd.png": "/portfolio/static/media/fsd.008105e29b3e0a74870f.png",
     "static/media/resume.pdf": "/portfolio/static/media/resume.7116de1a42b97881401b.pdf",
+    "static/media/flexiquery.jpeg": "/portfolio/static/media/flexiquery.27d4c624cb290ecdf84e.jpeg",
     "static/media/cicd.png": "/portfolio/static/media/cicd.ddcf55b047c09ef7b859.png",
     "static/media/azure.png": "/portfolio/static/media/azure.77336339875136303870.png",
     "static/media/heroku.png": "/portfolio/static/media/heroku.58328e43a9f7811194ed.png",
@@ -44,16 +45,17 @@
     "static/media/html.png": "/portfolio/static/media/html.7aa9a441950283a96c63.png",
     "static/media/sciKit-learn.jpg": "/portfolio/static/media/sciKit-learn.0696be39e54a94c8145b.jpg",
     "static/media/eduAssign.png": "/portfolio/static/media/eduAssign.ba45e9a4c66283b79997.png",
+    "static/media/elasticsearch.png": "/portfolio/static/media/elasticsearch.2eb6eaa7d9f69f78a9c3.png",
     "static/media/dots.png": "/portfolio/static/media/dots.35f111eb09e71c456e61.png",
     "static/media/onsolve.png": "/portfolio/static/media/onsolve.1d382a7be75a550be77d.png",
     "static/media/react.png": "/portfolio/static/media/react.ef20e673b9282f8f30fd.png",
     "static/media/matPlotLib.png": "/portfolio/static/media/matPlotLib.20692538caf6386bc94d.png",
     "index.html": "/portfolio/index.html",
     "main.7304e9e9.css.map": "/portfolio/static/css/main.7304e9e9.css.map",
-    "main.01a5ee55.js.map": "/portfolio/static/js/main.01a5ee55.js.map"
+    "main.a1ca6bde.js.map": "/portfolio/static/js/main.a1ca6bde.js.map"
   },
   "entrypoints": [
     "static/css/main.7304e9e9.css",
-    "static/js/main.01a5ee55.js"
+    "static/js/main.a1ca6bde.js"
   ]
 }
