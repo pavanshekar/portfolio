@@ -83,15 +83,15 @@ export const homeDetailsMockData = {
   job_title: 'Full Stack Developer',
   par_inro: 'Welcome to my personal world.',
   avatar_img: profilePic,
-  hireMe_link: 'shekar.p@northeastern.edu',
+  hireMe_link: 'pavansomashekar97@gmail.com',
   cv_link: cv_link
 };
 
 export const aboutMeMockData = {
   id: 1,
   title: 'About Me',
-  title_2: 'Graduate Student @ Northeastern University | SDE | Full Stack Developer',
-  description: "I am a graduate student at Northeastern University pursuing a Master's in Information Systems.\n\nI have three years of industry experience as a Software Development Engineer at Infosys and OnSolve. My expertise lies in Full Stack Web Development, complemented by a strong foundation in developing machine learning solutions. Additionally, my proficiency extends to leveraging cloud technologies, demonstrating a comprehensive skill set in cloud-based solution development and deployment.\n\nI am confident that my blend of technical skills and professional experience will significantly contribute to my career growth as a Software Development Engineer. I am eager to explore opportunities that not only allow me to contribute my skills but also provide a platform for continuous learning and professional development in the evolving fields of software engineering.",
+  title_2: 'Recent Graduate @ Northeastern University | SDE | Full Stack Developer',
+  description: "I am a recent graduate of Northeastern University, where I earned a Master's in Information Systems.\n\nI have three years of industry experience as a Software Development Engineer at Infosys and OnSolve. My expertise lies in Full Stack Web Development, complemented by a strong foundation in developing machine learning solutions. Additionally, my proficiency extends to leveraging cloud technologies, demonstrating a comprehensive skill set in cloud-based solution development and deployment.\n\nI am confident that my blend of technical skills and professional experience will significantly contribute to my career growth as a Software Development Engineer. I am eager to explore opportunities that not only allow me to contribute my skills but also provide a platform for continuous learning and professional development in the evolving fields of software engineering.",
   about_avatar: avatarImg,
 };
 
@@ -101,7 +101,7 @@ export const educationWorkExperienceMockData = {
       id: 1,
       university: 'Northeastern University',
       degree: 'MS, Information Systems',
-      completionDate: 'Expected May 2024',
+      completionDate: 'May 2024',
       coursework: ['Concepts of Object Oriented Design', 'Application Engineering & Development', 'Web Design & User Experience Engineering', 'Database Management & Database Design', 'Web Development Tools & Methods', 'Network Structures & Cloud Computing', 'Advanced Big-Data Applications/Indexing'],
       logo: neu,
     },
@@ -125,7 +125,7 @@ export const educationWorkExperienceMockData = {
         "Created the UI for the OnSolve platform, focusing on responsiveness and user experience using React.js",
         "Boosted the platform's performance by 15% by integrating 3 front-end modules and utilizing React.js for lazy loading and code splitting and Redux for state management and memoization, reducing load times",
         "Implemented unit tests for front-end modules using Jest and Enzyme with 90%+ code coverage",
-        "Ensured high quality through stringent code reviews and administered 2 OnSolve.UI releases via GitHub Actions, seamlessly integrating Docker for efficient delivery in containerized environments",
+        "Ensured high quality through stringent code reviews and administered 2 OnSolve.UI releases via CI/CD with GitHub Actions, seamlessly integrating Docker for efficient delivery in containerized environments",
       ],
       logo: onsolve,
     },
@@ -136,10 +136,10 @@ export const educationWorkExperienceMockData = {
       duration: 'Sep 2019 - Apr 2022',
       responsibilities: [
         'Drove innovation by playing a pivotal role in the development of 2 Angular-based web applications, effectively addressing evolving client needs and resulting in a 30% increase in client engagement',
-        'Developed a high-accuracy YOLOv3 chair detection model for Smart Classroom using OpenCV and a MEAN stack-based dashboard, significantly enhancing the interactive learning environment',
-        'Contributed to the InfyMansions project, developing full-stack modules with MEAN stack technologies and integrating Material UI for enhanced user interface design',
+        'Engineered a high-accuracy YOLOv3 chair detection model for Smart Classroom using OpenCV and a MEAN stack-based dashboard, significantly enhancing the interactive learning environment',
+        'Spearheaded the InfyMansions project, developing full-stack modules with MEAN stack technologies and integrating Material UI for enhanced user interface design',
         'Formulated a comprehensive testing strategy utilizing Protractor, Jasmine, and Karma frameworks, achieving 90% test coverage for end-to-end and unit testing',
-        'Hosted workshops in JavaScript, Angular, and React.js for 200+ employees and mentored to 10 new hires',
+        'Played a key role in workforce development by conducting workshops in JavaScript, Angular, and React.js for 200+ employees and mentored 10 new hires',
       ],
       logo: infosys,
     },
@@ -163,12 +163,12 @@ export const projectsMockData = [
   {
     id: 1,
     project_title: 'EduAssign',
-    tech_stack: 'Node.js, Express.js, MySQL, Sequelize, Mocha, Chai, Packer, Pulumi, AWS, GCP',
+    tech_stack: 'Node.js, Express.js, MySQL, Sequelize, Mocha, Chai, Packer, Terraform, AWS, GCP',
     project_avatar: eduAssign,
     project_info: [
-      'Developed EduAssign using Node.js, Express.js, and Sequelize, enhancing assignment management by 40%',
+      'Developed EduAssign using Node.js, Express.js, and Sequelize for MySQL, enhancing assignment management by 40%',
       'Utilized GitHub Actions for CI/CD, Mocha/Chai for integration testing, and Packer for AMI creation, which streamlined development, decreased deployment times by 60%, and reduced bugs by 25%',
-      'Augmented AWS infrastructure (EC2, Lambda, SNS, SES, Route 53) with load balancing, auto-scaling, CloudWatch, SSL certificates, and GCP for GitHub downloads via Terraform, doubling user load capacity and cutting management effort by 70%',
+      'Augmented AWS infrastructure (EC2, Lambda, SNS, SES, Route 53) with load balancing, auto-scaling, CloudWatch, SSL certificates, GCP for GitHub downloads via Terraform, doubling user load capacity and cutting management effort by 70%',
     ],
     project_links: [
       {
@@ -205,10 +205,10 @@ export const projectsMockData = [
   {
     id: 3,
     project_title: 'FlexiQuery',
-    tech_stack: 'Spring Boot, Elasticsearch, RabbitMQ, Redis, Google OAuth 2.0',
+    tech_stack: 'Java, Spring Boot, Elasticsearch, RabbitMQ, Redis, Google OAuth 2.0',
     project_avatar: flexiquery,
     project_info: [
-      'Optimized large dataset management with FlexiQuery, using Spring Boot and Elasticsearch for query efficiency',
+      'Optimized large dataset management with FlexiQuery, using Java, Spring Boot and Elasticsearch for query efficiency',
       'Elevated real-time data freshness and optimized performance by integrating RabbitMQ for synchronization and Redis for caching and utilizing ETag for enhanced data integrity',
       'Deployed Google OAuth 2.0, effectively safeguarding against unauthorized access and fortifying data privacy',
     ],
@@ -222,10 +222,10 @@ export const projectsMockData = [
   {
     id: 4,
     project_title: 'Event Management System',
-    tech_stack: 'HTML, CSS, Java Spring Boot, Hibernate, MySQL',
+    tech_stack: 'HTML, CSS, Bootstrap, JavaScript, Java, Spring Boot, Hibernate, MySQL',
     project_avatar: eventManagementSystem,
     project_info: [
-      'Developed a fully-functional event management system using Java Spring Boot, Hibernate, and MySQL, allowing users to create, manage, and promote events through an intuitive user interface, handling over 200 events seamlessly',
+      'Developed a fully-functional event management system using Java, Spring Boot, Hibernate, and MySQL, allowing users to create, manage, and promote events through an intuitive user interface, handling over 200 events seamlessly',
       'Architected the database schema, REST APIs, and front-end views to develop a scalable and maintainable system',
       'Established robust email notification and image hosting, leading to a 10% increase in overall user experience and satisfaction',
     ],
@@ -249,7 +249,7 @@ export const projectsMockData = [
     project_links: [
       {
         text: 'Source Code',
-        url: 'https://github.com/pavanshekar/Kaizntree-Back-End-Take-Home-Challenge'
+        url: 'https://github.com/pavanshekar/InventoryHub'
       }
     ],
   },
@@ -306,7 +306,7 @@ export const contactsMockData = [
     id: 1,
     icon: email,
     contact_name: 'Email',
-    contact_info: 'shekar.p@northeastern.edu',
+    contact_info: 'pavansomashekar97@gmail.com',
   },
   {
     id: 2,
