@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.d68fec9e.css",
-    "main.js": "/portfolio/static/js/main.81479547.js",
+    "main.css": "/portfolio/static/css/main.606bc92e.css",
+    "main.js": "/portfolio/static/js/main.536687e5.js",
     "static/media/profile_pic.jpg": "/portfolio/static/media/profile_pic.dca862e36bc3e677d35a.jpg",
     "static/media/eventmanagementsystem.jpg": "/portfolio/static/media/eventmanagementsystem.8ae5747607fb6eef1f94.jpg",
     "static/media/background.png": "/portfolio/static/media/background.78f65f0d57d328c7311a.png",
@@ -11,7 +11,7 @@
     "static/media/springboot.png": "/portfolio/static/media/springboot.ddd04734fe086d24fd3e.png",
     "static/media/face.png": "/portfolio/static/media/face.45dd818d4cc7c8b110d2.png",
     "static/media/fsd.png": "/portfolio/static/media/fsd.008105e29b3e0a74870f.png",
-    "static/media/resume.pdf": "/portfolio/static/media/resume.51366ff1b7b55d867954.pdf",
+    "static/media/resume.pdf": "/portfolio/static/media/resume.1ac680232c433039d8e2.pdf",
     "static/media/flexiquery.jpeg": "/portfolio/static/media/flexiquery.27d4c624cb290ecdf84e.jpeg",
     "static/media/cicd.png": "/portfolio/static/media/cicd.ddcf55b047c09ef7b859.png",
     "static/media/azure.png": "/portfolio/static/media/azure.77336339875136303870.png",
@@ -51,11 +51,11 @@
     "static/media/react.png": "/portfolio/static/media/react.ef20e673b9282f8f30fd.png",
     "static/media/matPlotLib.png": "/portfolio/static/media/matPlotLib.20692538caf6386bc94d.png",
     "index.html": "/portfolio/index.html",
-    "main.d68fec9e.css.map": "/portfolio/static/css/main.d68fec9e.css.map",
-    "main.81479547.js.map": "/portfolio/static/js/main.81479547.js.map"
+    "main.606bc92e.css.map": "/portfolio/static/css/main.606bc92e.css.map",
+    "main.536687e5.js.map": "/portfolio/static/js/main.536687e5.js.map"
   },
   "entrypoints": [
-    "static/css/main.d68fec9e.css",
-    "static/js/main.81479547.js"
+    "static/css/main.606bc92e.css",
+    "static/js/main.536687e5.js"
   ]
 }
