@@ -17,7 +17,7 @@ export const about = {
   intro:
     'I am a Full Stack Engineer with 5+ years of experience building web applications, backend services, cloud infrastructure, and AI tooling across product companies, consulting, and open source.',
   paragraphs: [
-    'My journey spans three companies and two countries. I started at Infosys, where I built web applications, REST APIs, backend services, and computer vision solutions, and trained hundreds of engineers along the way. At OnSolve I built responsive frontends backed by scalable backend services and CI/CD pipelines. Today I am at Red Hat, contributing to large scale open source projects used by enterprises around the world.',
+    'My journey spans four companies and two countries. I started at Infosys, where I built web applications, REST APIs, backend services, and computer vision solutions, and trained hundreds of engineers along the way. At OnSolve I built responsive frontends backed by scalable backend services and CI/CD pipelines. At WeUp I delivered full stack features with real-time communication, caching, and API optimizations. Today I am at Red Hat, contributing to large scale open source projects used by enterprises around the world.',
     'Along the way I earned a Master of Science in Information Systems from Northeastern University and picked up certifications in AWS and Azure. I have grown into owning features end to end: frontend, backend, databases, automated tests, releases, and documentation.',
     'Lately my focus has been AI. I build RAG applications, work with MCP servers, and help teams adopt AI developer tooling. I care about open source, developer experience, and shipping software that is tested, documented, and maintainable.',
   ],

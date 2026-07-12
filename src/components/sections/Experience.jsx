@@ -44,9 +44,13 @@ export default function Experience() {
               <header className="xp-header">
                 {job.logo ? (
                   <img className="xp-logo" src={job.logo} alt={job.company} />
-                ) : (
+                ) : job.id === 'redhat' ? (
                   <span className="xp-logo xp-logo-redhat" aria-label={job.company}>
                     <FaRedhat />
+                  </span>
+                ) : (
+                  <span className="xp-logo xp-logo-initial mono" aria-label={job.company}>
+                    {job.company.charAt(0)}
                   </span>
                 )}
                 <div>

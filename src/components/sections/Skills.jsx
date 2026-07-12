@@ -9,10 +9,11 @@ import {
   SiMysql, SiMongodb, SiRedis, SiApachekafka, SiRabbitmq, SiElasticsearch,
   SiHibernate, SiSequelize, SiGooglecloud, SiDocker, SiGithubactions,
   SiTerraform, SiPulumi, SiPacker, SiGit, SiScikitlearn, SiOpencv, SiNumpy,
-  SiPandas, SiModelcontextprotocol,
+  SiPandas, SiModelcontextprotocol, SiRedux, SiFastapi, SiVite, SiFramer,
 } from 'react-icons/si';
 import {
   FaJava, FaAngular, FaTheaterMasks, FaFlask, FaVial, FaAws, FaBrain, FaRobot,
+  FaNetworkWired,
 } from 'react-icons/fa';
 import { VscAzure } from 'react-icons/vsc';
 import './Skills.css';
@@ -24,9 +25,9 @@ const ICONS = {
   SiMysql, SiMongodb, SiRedis, SiApachekafka, SiRabbitmq, SiElasticsearch,
   SiHibernate, SiSequelize, SiGooglecloud, SiDocker, SiGithubactions,
   SiTerraform, SiPulumi, SiPacker, SiGit, SiScikitlearn, SiOpencv, SiNumpy,
-  SiPandas, SiModelcontextprotocol,
+  SiPandas, SiModelcontextprotocol, SiRedux, SiFastapi, SiVite, SiFramer,
   FaJava, FaAngular, FaTheaterMasks, FaFlask, FaVial, FaAws, FaBrain, FaRobot,
-  VscAzure,
+  FaNetworkWired, VscAzure,
 };
 
 export default function Skills() {

@@ -1,3 +1,4 @@
+import portfolio from '../assets/projects/portfolio.jpg';
 import eduAssign from '../assets/projects/eduAssign.png';
 import foodzilla from '../assets/projects/foodzilla.jpg';
 import flexiquery from '../assets/projects/flexiquery.jpeg';
@@ -7,6 +8,23 @@ import banking from '../assets/projects/banking.jpg';
 import face from '../assets/projects/face.jpg';
 
 export const projects = [
+  {
+    id: 'portfolio',
+    title: 'Developer Portfolio',
+    language: 'JavaScript',
+    tech: ['React', 'Vite', 'Redux Toolkit', 'Framer Motion', 'CSS', 'GitHub Pages'],
+    image: portfolio,
+    description:
+      'This site: a terminal and IDE themed portfolio built with React, Redux, and Framer Motion.',
+    info: [
+      'Built a typing-terminal hero, a Cmd+K command palette, and an editor tab-bar navigation with dark and light IDE themes persisted through Redux',
+      'Rendered a live GitHub contribution heatmap with RTK Query and added scroll-triggered animations with Framer Motion',
+      'Deployed to GitHub Pages with Vite, with an EmailJS powered contact form and a fully responsive layout',
+    ],
+    links: [
+      { text: 'Source Code', url: 'https://github.com/pavanshekar/portfolio' },
+    ],
+  },
   {
     id: 'eduassign',
     title: 'EduAssign',

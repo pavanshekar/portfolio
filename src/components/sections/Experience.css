@@ -90,6 +90,17 @@
   padding: 0;
 }
 
+.xp-logo-initial {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, var(--cyan), var(--purple));
+  color: var(--bg);
+  font-size: 22px;
+  font-weight: 700;
+  padding: 0;
+}
+
 .xp-role {
   font-size: 17px;
 }

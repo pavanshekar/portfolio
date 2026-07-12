@@ -22,6 +22,20 @@ export const experience = [
     ],
   },
   {
+    id: 'weup',
+    position: 'Full Stack Developer',
+    company: 'WeUp',
+    location: 'Los Angeles, CA (Remote)',
+    duration: 'Jul 2024 - Nov 2024',
+    logo: null, // rendered as an initial badge in Experience.jsx
+    tech: ['React.js', 'Redux', 'Python', 'FastAPI', 'WebSockets'],
+    responsibilities: [
+      'Developed and maintained full-stack components for the platform, using React.js for the frontend and Python FastAPI for the backend, ensuring seamless integration and efficient performance',
+      'Designed and optimized database schemas to manage user profiles, content, and transactions, while implementing real-time communication features using WebSockets for live updates and notifications',
+      'Improved platform performance and scalability by implementing caching mechanisms, optimizing APIs, and ensuring efficient data retrieval through indexing strategies',
+    ],
+  },
+  {
     id: 'onsolve',
     position: 'Software Engineer',
     company: 'OnSolve',
