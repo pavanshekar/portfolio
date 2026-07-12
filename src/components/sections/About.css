@@ -1,0 +1,181 @@
+.about-grid {
+  display: grid;
+  grid-template-columns: 340px 1fr;
+  gap: 44px;
+  align-items: start;
+  margin-bottom: 40px;
+}
+
+/* ---- Photo ---- */
+.about-photo-col {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+}
+
+.about-photo-frame {
+  position: relative;
+  width: 300px;
+  max-width: 100%;
+}
+
+.about-photo-ring {
+  position: absolute;
+  inset: -10px;
+  border-radius: 26px;
+  background: conic-gradient(
+    from var(--ring-angle, 0deg),
+    var(--accent),
+    var(--cyan),
+    var(--purple),
+    var(--accent)
+  );
+  filter: blur(14px);
+  opacity: 0.55;
+  animation: ring-spin 7s linear infinite;
+  z-index: 0;
+}
+@property --ring-angle {
+  syntax: '<angle>';
+  initial-value: 0deg;
+  inherits: false;
+}
+@keyframes ring-spin {
+  to {
+    --ring-angle: 360deg;
+  }
+}
+
+.about-photo {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: 22px;
+  border: 1px solid var(--border);
+}
+
+.about-photo-badge {
+  position: absolute;
+  z-index: 2;
+  bottom: -14px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  white-space: nowrap;
+  padding: 8px 16px;
+  font-size: 12px;
+  color: var(--text);
+  background: var(--bg-elev);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  box-shadow: var(--shadow);
+}
+.about-status-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--accent);
+  box-shadow: 0 0 8px var(--accent);
+  animation: pulse-dot 2s ease-in-out infinite;
+}
+@keyframes pulse-dot {
+  50% {
+    opacity: 0.4;
+  }
+}
+
+.about-photo-meta {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  margin-top: 12px;
+  font-size: 13px;
+  color: var(--text-dim);
+}
+.about-photo-meta span {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+.about-photo-meta svg {
+  font-size: 16px;
+}
+.about-photo-meta a {
+  color: var(--text-dim);
+  display: flex;
+  transition: color 0.2s, transform 0.2s;
+}
+.about-photo-meta a:hover {
+  color: var(--accent);
+  transform: translateY(-2px);
+}
+
+/* ---- Text ---- */
+.about-text p {
+  margin-bottom: 16px;
+  color: var(--text-dim);
+}
+.about-intro {
+  color: var(--text) !important;
+  font-size: 17.5px;
+}
+
+/* ---- Highlights ---- */
+.about-highlights {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 16px;
+}
+
+.about-card {
+  display: flex;
+  gap: 14px;
+  align-items: flex-start;
+  padding: 18px 20px;
+  background: var(--bg-elev);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  transition: border-color 0.25s, box-shadow 0.25s;
+}
+.about-card:hover {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px var(--accent-glow);
+}
+
+.about-card-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  font-size: 17px;
+  color: var(--accent);
+  background: var(--accent-glow);
+}
+
+.about-card-label {
+  font-size: 12px;
+  color: var(--text-faint);
+  margin-bottom: 4px;
+}
+.about-card-value {
+  font-weight: 600;
+  font-size: 14.5px;
+}
+
+@media (max-width: 900px) {
+  .about-grid {
+    grid-template-columns: 1fr;
+    gap: 36px;
+  }
+  .about-photo-col {
+    justify-self: center;
+  }
+}

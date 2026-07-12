@@ -1,0 +1,97 @@
+.skills-tabs {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 28px;
+}
+
+.skills-tab {
+  padding: 7px 16px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--bg-elev);
+  color: var(--text-dim);
+  font-family: var(--font-mono);
+  font-size: 13px;
+  transition: color 0.2s, border-color 0.2s, background 0.2s, box-shadow 0.2s;
+}
+.skills-tab:hover {
+  color: var(--text);
+  border-color: var(--text-faint);
+}
+.skills-tab.active {
+  color: var(--bg);
+  background: var(--accent);
+  border-color: var(--accent);
+  box-shadow: 0 0 16px var(--accent-glow);
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(128px, 1fr));
+  gap: 14px;
+}
+
+.skill-tile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 20px 10px 16px;
+  background: var(--bg-elev);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  cursor: default;
+  position: relative;
+  overflow: hidden;
+  transition: border-color 0.25s, box-shadow 0.25s;
+}
+.skill-tile::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(
+    120px circle at 50% 0%,
+    color-mix(in srgb, var(--brand) 16%, transparent),
+    transparent 70%
+  );
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+.skill-tile:hover {
+  border-color: color-mix(in srgb, var(--brand) 65%, var(--border));
+  box-shadow: 0 8px 24px color-mix(in srgb, var(--brand) 18%, transparent);
+}
+.skill-tile:hover::before {
+  opacity: 1;
+}
+
+.skill-icon {
+  font-size: 34px;
+  color: var(--brand);
+  display: flex;
+  filter: drop-shadow(0 0 10px color-mix(in srgb, var(--brand) 35%, transparent));
+  position: relative;
+}
+
+.skill-name {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  color: var(--text-dim);
+  text-align: center;
+  position: relative;
+}
+.skill-tile:hover .skill-name {
+  color: var(--text);
+}
+
+@media (max-width: 600px) {
+  .skills-grid {
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 10px;
+  }
+  .skill-icon {
+    font-size: 28px;
+  }
+}

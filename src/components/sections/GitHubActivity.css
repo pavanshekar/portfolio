@@ -1,0 +1,98 @@
+.gh-status {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  padding: 20px 24px;
+  background: var(--bg-elev);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  font-size: 14px;
+}
+
+.gh-spinner {
+  width: 14px;
+  height: 14px;
+  border: 2px solid var(--border);
+  border-top-color: var(--accent);
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+}
+
+.gh-error {
+  color: var(--red);
+}
+
+.gh-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 16px;
+}
+
+.gh-card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 16px 18px;
+  background: var(--bg-elev);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  color: var(--text);
+  transition: border-color 0.25s, box-shadow 0.25s, transform 0.25s,
+    opacity 0.6s ease;
+}
+.gh-card:hover {
+  text-decoration: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px var(--accent-glow);
+  transform: translateY(-3px);
+}
+
+.gh-name {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--link);
+  word-break: break-all;
+}
+.gh-name svg {
+  color: var(--text-faint);
+  flex-shrink: 0;
+}
+
+.gh-desc {
+  font-size: 13px;
+  color: var(--text-dim);
+  flex: 1;
+}
+
+.gh-meta {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  font-size: 12px;
+  color: var(--text-faint);
+  flex-wrap: wrap;
+}
+
+.gh-lang {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+.gh-lang-dot {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+}
+
+.gh-pushed {
+  margin-left: auto;
+}
+
+.gh-more {
+  margin-top: 20px;
+  font-size: 13.5px;
+}

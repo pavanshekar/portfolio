@@ -1,57 +1,36 @@
-# Pavan Soma Shekar Portfolio
+# Pavan Soma Shekar — Portfolio
 
-## Description
+Terminal/IDE-themed personal portfolio, live at **https://pavanshekar.github.io/portfolio**.
 
-This is a modern, responsive portfolio website built using React.js. It showcases my projects, skills, and experience in web development. This site is designed to be a dynamic representation of my work and abilities in the field of software development.
+## Stack
+
+- **React 18 + Vite** — fast dev server and builds
+- **Redux Toolkit** — theme state, command palette state, and RTK Query for live GitHub data
+- **Plain CSS with custom properties** — dark/light IDE themes, no CSS framework
+- **EmailJS** — contact form delivery
 
 ## Features
 
-- **Responsive Design**: Optimized for both desktop and mobile viewing.
-- **About Section**: Personal introduction and professional background.
-- **Education**: Detailed information about my educational qualifications.
-- **Experience**: Outline of my professional experience and key achievements.
-- **Skills Section**: A comprehensive list of my technical skills.
-- **Project Showcase**: Interactive gallery of my development projects.
-- **Contact Form**: An easy way for potential employers or clients to reach out to me.
-- **Dynamic Content**: Content is dynamically loaded from a file.
+- Typing-terminal hero (`$ whoami`) with blinking cursor
+- ⌘K / Ctrl+K command palette for navigation and actions
+- Editor tab-bar navigation with active-section highlighting
+- `git log`-style experience timeline, `skills.json` skills block, repo-card projects
+- Live GitHub repositories via the GitHub API (graceful rate-limit fallback)
+- Dark/light theme toggle persisted in localStorage
+- Scroll-reveal animations that respect `prefers-reduced-motion`
 
-## Installation
+## Development
 
-To install this project on your local machine, follow these steps:
-
-1. Clone the repository:
-
-```sh
-git clone [repository URL]
-```
-
-2. Navigate to the project directory:
-
-```sh
-cd [project directory]
-```
-
-3. Install the dependencies:
-
-```sh
+```bash
 npm install
+cp .env.example .env   # fill in EmailJS credentials
+npm run dev            # http://localhost:5173/portfolio/
 ```
 
-## Usage
+## Deploy
 
-To run this project locally:
+Deploys the `dist/` build to the `gh-pages` branch:
 
-```sh
-npm start
+```bash
+npm run deploy
 ```
-
-This will start the development server and open the portfolio website in your default web browser.
-
-## Technologies Used
-
-- HTML/CSS
-- Bootstrap
-- JavaScript
-- jQuery
-- React.js
-- Redux

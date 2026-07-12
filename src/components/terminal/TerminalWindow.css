@@ -1,0 +1,14 @@
+.terminal-body {
+  padding: 20px 22px;
+  font-family: var(--font-mono);
+  font-size: 14.5px;
+  line-height: 1.85;
+  min-height: 120px;
+}
+
+@media (max-width: 600px) {
+  .terminal-body {
+    padding: 14px;
+    font-size: 12.5px;
+  }
+}

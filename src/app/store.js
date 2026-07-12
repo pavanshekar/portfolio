@@ -1,12 +1,14 @@
 import { configureStore } from '@reduxjs/toolkit';
-import { api } from '../API/api';
+import themeReducer from '../features/theme/themeSlice';
+import paletteReducer from '../features/palette/paletteSlice';
+import { githubApi } from '../features/github/githubApi';
 
-const store = configureStore({
+export const store = configureStore({
   reducer: {
-    [api.reducerPath]: api.reducer,
+    theme: themeReducer,
+    palette: paletteReducer,
+    [githubApi.reducerPath]: githubApi.reducer,
   },
   middleware: (getDefaultMiddleware) =>
-    getDefaultMiddleware().concat(api.middleware),
+    getDefaultMiddleware().concat(githubApi.middleware),
 });
-
-export default store;

@@ -1,0 +1,137 @@
+.xp-timeline {
+  display: flex;
+  flex-direction: column;
+}
+
+.xp-entry {
+  display: grid;
+  grid-template-columns: 28px 1fr;
+  gap: 18px;
+}
+
+.xp-marker {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 26px;
+}
+
+.xp-dot {
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  border: 2px solid var(--text-faint);
+  background: var(--bg);
+  flex-shrink: 0;
+}
+.xp-dot.current {
+  border-color: var(--accent);
+  background: var(--accent);
+  box-shadow: 0 0 0 4px var(--accent-glow), 0 0 12px var(--accent-glow);
+}
+
+.xp-line {
+  flex: 1;
+  width: 2px;
+  background: var(--border);
+  margin-top: 6px;
+}
+
+.xp-card {
+  background: var(--bg-elev);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 22px 26px;
+  margin-bottom: 28px;
+  transition: border-color 0.25s, box-shadow 0.25s;
+}
+.xp-card:hover {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px var(--accent-glow);
+}
+
+.xp-commit {
+  font-size: 12.5px;
+  margin-bottom: 14px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.tok-amber {
+  color: var(--amber);
+}
+.xp-head {
+  color: var(--cyan);
+}
+
+.xp-header {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 14px;
+}
+
+.xp-logo {
+  width: 44px;
+  height: 44px;
+  border-radius: 10px;
+  object-fit: contain;
+  background: #fff;
+  padding: 4px;
+  border: 1px solid var(--border);
+}
+.xp-logo-redhat {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  color: #ee0000;
+  font-size: 30px;
+  padding: 0;
+}
+
+.xp-role {
+  font-size: 17px;
+}
+.xp-company {
+  color: var(--accent);
+}
+.xp-meta {
+  font-size: 12.5px;
+  color: var(--text-dim);
+}
+
+.xp-list {
+  list-style: none;
+  margin-bottom: 16px;
+}
+.xp-list li {
+  position: relative;
+  padding-left: 22px;
+  margin-bottom: 8px;
+  color: var(--text-dim);
+  font-size: 14.5px;
+}
+.xp-list li::before {
+  content: '▸';
+  position: absolute;
+  left: 0;
+  color: var(--accent);
+  font-family: var(--font-mono);
+}
+
+.xp-tech {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 600px) {
+  .xp-entry {
+    grid-template-columns: 20px 1fr;
+    gap: 12px;
+  }
+  .xp-card {
+    padding: 16px;
+  }
+}

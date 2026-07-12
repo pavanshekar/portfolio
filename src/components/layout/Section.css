@@ -1,0 +1,34 @@
+.section {
+  padding: 88px 0 32px;
+}
+
+.section-heading {
+  font-size: 27px;
+  display: inline-flex;
+  align-items: baseline;
+  gap: 4px;
+}
+
+.section-subtitle {
+  color: var(--text-dim);
+  font-size: 15px;
+  margin-top: 6px;
+  max-width: 62ch;
+}
+
+.section-rule {
+  height: 2px;
+  width: 72px;
+  margin: 18px 0 32px;
+  border-radius: 2px;
+  background: linear-gradient(90deg, var(--accent), var(--cyan));
+}
+
+@media (max-width: 600px) {
+  .section {
+    padding: 64px 0 24px;
+  }
+  .section-heading {
+    font-size: 22px;
+  }
+}
