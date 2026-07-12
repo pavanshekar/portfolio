@@ -89,23 +89,15 @@ export default function Hero() {
             <span className="hero-accent">open source</span> at Red Hat.
           </h1>
           <p className="hero-sub">{profile.tagline}</p>
-          <div className="hero-buttons">
-            <a className="btn btn-primary" href="#projects">
-              view --projects
-            </a>
-            <a className="btn" href="#contact">
-              ./contact.sh
-            </a>
+          <div className="hero-socials">
             <a
-              className="btn"
+              className="btn btn-primary"
               href={profile.resume}
               target="_blank"
               rel="noreferrer"
             >
               <FaFileAlt aria-hidden="true" /> resume
             </a>
-          </div>
-          <div className="hero-socials">
             <a
               className="hero-social"
               href={profile.github}
