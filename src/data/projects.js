@@ -1,4 +1,3 @@
-import portfolio from '../assets/projects/portfolio.jpg';
 import eduAssign from '../assets/projects/eduAssign.png';
 import foodzilla from '../assets/projects/foodzilla.jpg';
 import flexiquery from '../assets/projects/flexiquery.jpeg';
@@ -6,25 +5,9 @@ import eventManagementSystem from '../assets/projects/eventmanagementsystem.jpg'
 import inventoryHub from '../assets/projects/inventoryHub.png';
 import banking from '../assets/projects/banking.jpg';
 import face from '../assets/projects/face.jpg';
+import air from '../assets/projects/air.jpg';
 
 export const projects = [
-  {
-    id: 'portfolio',
-    title: 'Developer Portfolio',
-    language: 'JavaScript',
-    tech: ['React', 'Vite', 'Redux Toolkit', 'Framer Motion', 'CSS', 'GitHub Pages'],
-    image: portfolio,
-    description:
-      'This site: a terminal and IDE themed portfolio built with React, Redux, and Framer Motion.',
-    info: [
-      'Built a typing-terminal hero, a Cmd+K command palette, and an editor tab-bar navigation with dark and light IDE themes persisted through Redux',
-      'Rendered a live GitHub contribution heatmap with RTK Query and added scroll-triggered animations with Framer Motion',
-      'Deployed to GitHub Pages with Vite, with an EmailJS powered contact form and a fully responsive layout',
-    ],
-    links: [
-      { text: 'Source Code', url: 'https://github.com/pavanshekar/portfolio' },
-    ],
-  },
   {
     id: 'eduassign',
     title: 'EduAssign',
@@ -145,5 +128,25 @@ export const projects = [
       'Led a team of 4 to build a CNN-based face recognition model with 96.5% accuracy',
     ],
     links: [],
+  },
+  {
+    id: 'air-quality',
+    title: 'Air Quality Prediction',
+    language: 'Python',
+    tech: ['Python', 'scikit-learn', 'Pandas', 'NumPy', 'Regression'],
+    image: air,
+    description:
+      'Machine learning suite that forecasts urban air quality from the UCI Air Quality dataset.',
+    info: [
+      'Devised a Python-based Air Quality Prediction model leveraging the Air Quality Dataset from the UCI Machine Learning repository',
+      'Engineered a machine learning suite that accurately predicts urban benzene levels and temperature variations',
+      'Utilized Linear, Lasso and Decision Tree Regression, achieving a 99.6% accuracy in urban air quality monitoring',
+    ],
+    links: [
+      {
+        text: 'Source Code',
+        url: 'https://github.com/pavanshekar/Air-quality-prediction',
+      },
+    ],
   },
 ];

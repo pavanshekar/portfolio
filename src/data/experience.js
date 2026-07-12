@@ -1,3 +1,4 @@
+import weup from '../assets/org/weup.jpeg';
 import onsolve from '../assets/org/onsolve.png';
 import infosys from '../assets/org/infosys.png';
 import speckbit from '../assets/org/speckbit.jpeg';
@@ -27,7 +28,7 @@ export const experience = [
     company: 'WeUp',
     location: 'Los Angeles, CA (Remote)',
     duration: 'Jul 2024 - Nov 2024',
-    logo: null, // rendered as an initial badge in Experience.jsx
+    logo: weup,
     tech: ['React.js', 'Redux', 'Python', 'FastAPI', 'WebSockets'],
     responsibilities: [
       'Developed and maintained full-stack components for the platform, using React.js for the frontend and Python FastAPI for the backend, ensuring seamless integration and efficient performance',
