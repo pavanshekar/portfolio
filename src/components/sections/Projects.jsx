@@ -10,18 +10,32 @@ const LANG_COLORS = {
   Python: '#3572a5',
 };
 
+function Details({ project }) {
+  return (
+    <>
+      <p className="proj-desc">{project.description}</p>
+      <ul className="proj-info">
+        {project.info.map((line, j) => (
+          <li key={j}>{line}</li>
+        ))}
+      </ul>
+    </>
+  );
+}
+
 export default function Projects() {
   return (
     <Section
       id="projects"
       title="Projects"
-      subtitle="Things I have designed, built, deployed, and maintained."
+      subtitle="Things I have designed, built, deployed, and maintained. Hover a card for the details."
     >
       <div className="proj-grid">
         {projects.map((p, i) => (
           <motion.article
             className="proj-card"
             key={p.id}
+            tabIndex={0}
             initial={{ opacity: 0, y: 36 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: '-40px' }}
@@ -56,33 +70,34 @@ export default function Projects() {
                   ))}
                 </div>
               </div>
-
-              <p className="proj-desc">{p.description}</p>
-
-              <ul className="proj-info">
-                {p.info.map((line, j) => (
-                  <li key={j}>{line}</li>
+              <div className="proj-tech">
+                {p.tech.map((t) => (
+                  <span className="chip" key={t}>
+                    {t}
+                  </span>
                 ))}
-              </ul>
+              </div>
+            </div>
 
-              <div className="proj-footer">
-                <div className="proj-tech">
-                  {p.tech.map((t) => (
-                    <span className="chip" key={t}>
-                      {t}
-                    </span>
+            {/* Hover reveal (pointer devices) */}
+            <div className="proj-overlay">
+              <h3 className="proj-title">{p.title}</h3>
+              <Details project={p} />
+              {p.links.length > 0 && (
+                <div className="proj-links mono">
+                  {p.links.map((l) => (
+                    <a key={l.url} href={l.url} target="_blank" rel="noreferrer">
+                      <FaGithub aria-hidden="true" /> {l.text}{' '}
+                      <FaExternalLinkAlt className="proj-ext" aria-hidden="true" />
+                    </a>
                   ))}
                 </div>
-                {p.links.length > 0 && (
-                  <div className="proj-links mono">
-                    {p.links.map((l) => (
-                      <a key={l.url} href={l.url} target="_blank" rel="noreferrer">
-                        {l.text} <FaExternalLinkAlt aria-hidden="true" />
-                      </a>
-                    ))}
-                  </div>
-                )}
-              </div>
+              )}
+            </div>
+
+            {/* Static details for touch devices without hover */}
+            <div className="proj-touch-details">
+              <Details project={p} />
             </div>
           </motion.article>
         ))}
