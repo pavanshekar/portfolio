@@ -16,7 +16,7 @@ export default function Experience() {
     <Section
       id="experience"
       title="Experience"
-      subtitle="A commit history of my career — most recent at HEAD."
+      subtitle="A commit history of my career, most recent at HEAD."
     >
       <div className="xp-timeline">
         {experience.map((job, i) => (

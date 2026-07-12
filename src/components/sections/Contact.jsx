@@ -109,11 +109,11 @@ export default function Contact() {
                 <span className="tok-comment">$ sending message…</span>
               )}
               {status === 'sent' && (
-                <span className="tok-fn">✓ message sent — exit code 0</span>
+                <span className="tok-fn">✓ message sent (exit code 0)</span>
               )}
               {status === 'error' && (
                 <span className="contact-error">
-                  ✗ send failed — email me directly at {profile.email}
+                  ✗ send failed. Email me directly at {profile.email}
                 </span>
               )}
             </div>

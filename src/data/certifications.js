@@ -4,7 +4,7 @@ import azureCert from '../assets/certificates/microsoft-certified-azure-fundamen
 export const certifications = [
   {
     id: 'aws-dev',
-    title: 'AWS Certified Developer — Associate',
+    title: 'AWS Certified Developer - Associate',
     issuer: 'Amazon Web Services',
     image: awsCert,
     link: 'https://www.credly.com/badges/2348abe8-d06b-4665-8c50-564c37a2a5ff/public_url',

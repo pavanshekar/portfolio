@@ -9,7 +9,7 @@ export default function Education() {
     <Section
       id="education"
       title="Education"
-      subtitle="Where I learned the fundamentals — and then kept going."
+      subtitle="Where I learned the fundamentals, and then kept going."
     >
       <div className="edu-grid">
         {education.map((school, i) => (

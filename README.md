@@ -1,13 +1,13 @@
-# Pavan Soma Shekar — Portfolio
+# Pavan Soma Shekar Portfolio
 
 Terminal/IDE-themed personal portfolio, live at **https://pavanshekar.github.io/portfolio**.
 
 ## Stack
 
-- **React 18 + Vite** — fast dev server and builds
-- **Redux Toolkit** — theme state, command palette state, and RTK Query for live GitHub data
-- **Plain CSS with custom properties** — dark/light IDE themes, no CSS framework
-- **EmailJS** — contact form delivery
+- **React 18 + Vite**: fast dev server and builds
+- **Redux Toolkit**: theme state, command palette state, and RTK Query for live GitHub data
+- **Plain CSS with custom properties**: dark/light IDE themes, no CSS framework
+- **EmailJS**: contact form delivery
 
 ## Features
 

@@ -44,7 +44,7 @@ export default function Skills() {
     <Section
       id="skills"
       title="Skills"
-      subtitle="The tools I reach for — from frontend frameworks to cloud infrastructure and AI tooling."
+      subtitle="The tools I reach for, from frontend frameworks to cloud infrastructure and AI tooling."
     >
       <div className="skills-tabs mono" role="tablist" aria-label="Skill categories">
         <button

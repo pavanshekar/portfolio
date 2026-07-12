@@ -8,16 +8,16 @@ export const experience = [
     position: 'Associate Software Engineer',
     company: 'Red Hat',
     location: 'Raleigh, NC',
-    duration: 'Nov 2024 — Present',
+    duration: 'Nov 2024 - Present',
     current: true,
-    logo: null, // rendered as a styled text badge
+    logo: null, // rendered as the Red Hat icon in Experience.jsx
     tech: ['React', 'Ruby on Rails', 'PostgreSQL', 'pytest', 'Playwright'],
     responsibilities: [
       'Delivered upstream contributions across Foreman/Katello, owning full-stack features, bug fixes, and maintainability improvements across React, Ruby on Rails, databases, and automated tests, with downstream impact on Red Hat Satellite',
       'Enhanced Flatpak, container image, repository, subscription, content view, and host workflows by delivering UI, backend, database, and test changes that improved usability, reliability, and regression coverage',
       'Improved performance and upgrade reliability through database-backed workflow improvements, bulk SQL processing, parallelized migration handling, and multi-threaded execution fixes',
       'Modernized quality engineering by contributing to Robottelo/Airgun using pytest, stabilizing frontend regression coverage, and developing a Playwright E2E testing POC to enable shift-left testing',
-      'Served as release owner for Katello 4.17.0, 4.17.1, 4.18.0, and 4.18.1 — authoring documentation and release notes, reviewing code, and delivering demos to stakeholders, maintainers, QE, and open-source contributors',
+      'Served as release owner for Katello 4.17.0, 4.17.1, 4.18.0, and 4.18.1, authoring documentation and release notes, reviewing code, and delivering demos to stakeholders, maintainers, QE, and open-source contributors',
       'Advanced AI enablement by building a RAG-based chatbot POC for Red Hat Satellite, contributing to Foreman MCP server workflows, and creating an AI quickstart tooling guide',
     ],
   },
@@ -26,7 +26,7 @@ export const experience = [
     position: 'Software Engineer',
     company: 'OnSolve',
     location: 'Bengaluru, India',
-    duration: 'Apr 2022 — Aug 2022',
+    duration: 'Apr 2022 - Aug 2022',
     logo: onsolve,
     tech: ['React.js', 'Redux', 'Spring Boot', 'Jest', 'Docker'],
     responsibilities: [
@@ -42,7 +42,7 @@ export const experience = [
     position: 'Senior Systems Engineer',
     company: 'Infosys',
     location: 'Bengaluru, India',
-    duration: 'Sep 2019 — Apr 2022',
+    duration: 'Sep 2019 - Apr 2022',
     logo: infosys,
     tech: ['Angular', 'Node.js', 'MEAN', 'OpenCV', 'Protractor'],
     responsibilities: [
@@ -58,7 +58,7 @@ export const experience = [
     position: 'Machine Learning Research Intern',
     company: 'Speckbit Exploratories',
     location: 'Bengaluru, India',
-    duration: 'Jan 2019 — Mar 2019',
+    duration: 'Jan 2019 - Mar 2019',
     logo: speckbit,
     tech: ['Python', 'scikit-learn', 'Regression'],
     responsibilities: [

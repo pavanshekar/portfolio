@@ -10,21 +10,21 @@ export const profile = {
   linkedin: 'https://www.linkedin.com/in/pavansshekar/',
   resume: `${import.meta.env.BASE_URL}resume.pdf`,
   tagline:
-    'I design, build, and ship features for Foreman & Katello — the open source engine behind Red Hat Satellite — working across React frontends, Rails backends, cloud infrastructure, and AI-powered developer tooling.',
+    'Full Stack Engineer at Red Hat with a passion for open source, cloud, and AI. I build products end to end and love turning complex problems into clean, reliable software.',
 };
 
 export const about = {
   intro:
-    "I'm a Full Stack Engineer at Red Hat in Raleigh, where I contribute upstream to Foreman and Katello — the open source projects behind Red Hat Satellite. I own full-stack features end to end: React frontends, Ruby on Rails backends, database migrations, and the automated tests that keep it all honest.",
+    'I am a Full Stack Engineer with 5+ years of experience building web applications, backend services, cloud infrastructure, and AI tooling across product companies, consulting, and open source.',
   paragraphs: [
-    'Before Red Hat, I earned my Master of Science in Information Systems from Northeastern University, and built products at OnSolve and Infosys — from React platform UIs to Angular apps, MEAN-stack systems, and even a YOLOv3 computer-vision model for smart classrooms.',
-    'Lately I have been deep in the AI-tooling space: I built a RAG-based chatbot POC for Red Hat Satellite, contribute to Foreman MCP server workflows, and wrote an AI quickstart guide to help developers adopt AI tools effectively. I also serve as release owner for Katello and led a Playwright E2E testing initiative to shift quality left.',
-    'I care about open source, developer experience, and shipping software that is tested, documented, and maintainable.',
+    'My journey spans three companies and two countries. I started at Infosys, where I built web applications, REST APIs, backend services, and computer vision solutions, and trained hundreds of engineers along the way. At OnSolve I built responsive frontends backed by scalable backend services and CI/CD pipelines. Today I am at Red Hat, contributing to large scale open source projects used by enterprises around the world.',
+    'Along the way I earned a Master of Science in Information Systems from Northeastern University and picked up certifications in AWS and Azure. I have grown into owning features end to end: frontend, backend, databases, automated tests, releases, and documentation.',
+    'Lately my focus has been AI. I build RAG applications, work with MCP servers, and help teams adopt AI developer tooling. I care about open source, developer experience, and shipping software that is tested, documented, and maintainable.',
   ],
   highlights: [
-    { label: 'Open source', value: 'Foreman / Katello upstream contributor' },
-    { label: 'Release owner', value: 'Katello 4.17.0 → 4.18.1' },
-    { label: 'AI enablement', value: 'RAG chatbot POC · MCP workflows' },
-    { label: 'Experience', value: '5+ years full-stack engineering' },
+    { label: 'Open source', value: 'Upstream contributor and release owner' },
+    { label: 'Full stack', value: 'Frontend, backend, databases, and testing' },
+    { label: 'Cloud', value: 'AWS and Azure certified, IaC and CI/CD' },
+    { label: 'AI enablement', value: 'RAG applications and MCP workflows' },
   ],
 };

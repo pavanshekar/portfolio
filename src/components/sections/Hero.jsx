@@ -3,6 +3,7 @@ import TerminalWindow from '../terminal/TerminalWindow';
 import Cursor from '../terminal/Cursor';
 import { useTypewriter } from '../../hooks/useTypewriter';
 import { profile } from '../../data/profile';
+import { FaGithub, FaLinkedin, FaEnvelope, FaFileAlt } from 'react-icons/fa';
 import './Hero.css';
 
 export default function Hero() {
@@ -13,13 +14,13 @@ export default function Hero() {
       { kind: 'cmd', text: 'cat role.txt', delayAfter: 250 },
       {
         kind: 'out',
-        text: `${profile.role} @ ${profile.company} — ${profile.location}`,
+        text: `${profile.role} @ ${profile.company} · ${profile.location}`,
         delayAfter: 400,
       },
       { kind: 'cmd', text: 'grep -r "passion" .', delayAfter: 250 },
       {
         kind: 'out',
-        text: 'open source · Foreman/Katello · React · Rails · AI tooling',
+        text: 'open source · full stack development · cloud · AI',
         delayAfter: 500,
       },
       { kind: 'cmd', text: 'ls ./links', delayAfter: 200 },
@@ -101,7 +102,40 @@ export default function Hero() {
               target="_blank"
               rel="noreferrer"
             >
-              open resume.pdf
+              <FaFileAlt aria-hidden="true" /> resume
+            </a>
+          </div>
+          <div className="hero-socials">
+            <a
+              className="hero-social"
+              href={profile.github}
+              target="_blank"
+              rel="noreferrer"
+              aria-label="GitHub profile"
+              title="GitHub"
+            >
+              <FaGithub />
+              <span className="mono">github</span>
+            </a>
+            <a
+              className="hero-social"
+              href={profile.linkedin}
+              target="_blank"
+              rel="noreferrer"
+              aria-label="LinkedIn profile"
+              title="LinkedIn"
+            >
+              <FaLinkedin />
+              <span className="mono">linkedin</span>
+            </a>
+            <a
+              className="hero-social"
+              href={`mailto:${profile.email}`}
+              aria-label="Send email"
+              title="Email"
+            >
+              <FaEnvelope />
+              <span className="mono">email</span>
             </a>
           </div>
         </div>

@@ -8,7 +8,7 @@ export default function Certifications() {
     <Section
       id="certifications"
       title="Certifications"
-      subtitle="Independently verified credentials — click through to Credly."
+      subtitle="Independently verified credentials. Click through to view on Credly."
     >
       <div className="cert-grid">
         {certifications.map((cert, i) => (
